@@ -1,16 +1,15 @@
-## Hi there 👋
+# 💫 About Me:
+Hi, I'm Atharva Pathak 👋<br>B.Tech Computer Science student at Bharati Vidyapeeth Deemed University (9.2 CGPA), working at the intersection of Machine Learning, Healthcare Analytics, and IoT-based sensing systems.<br>🔭 I'm currently working on<br>A non-invasive RBC count prediction system using IoT sensors (MAX30102, AS7341, OPT3004) trained on real hospital datasets — aiming for a low-cost, portable diagnostics solution<br>Six Sigma analysis of hematological parameters integrating OCR, NLP, and predictive modeling for clinical decision support<br>👯 I'm looking to collaborate on<br>ML projects in healthcare diagnostics or biomedical signal processing<br>NLP pipelines for text classification, summarization, or information extraction<br>Time-series forecasting applications in agriculture or finance (ARIMA, ensemble methods)<br>🤝 I'm looking for help with<br>Scaling ML models from research to production-grade deployment<br>Advanced sensor fusion techniques for IoT-based health monitoring<br>Research paper writing and academic publication workflows<br>🌱 I'm currently learning<br>Deep learning architectures to extend beyond classical ML (Random Forest, Decision Tree, ARIMA)<br>IoT hardware-software integration for real-world medical datasets<br>Model deployment and MLOps fundamentals<br>💬 Ask me about<br>Building interpretable ML models with LIME for healthcare use cases<br>Diabetes prediction using ensemble methods (Voting, Stacking) — ~97% accuracy<br>NLP workflows: dataset creation, text classification, summarization<br>EDA and visualization with NumPy, Pandas, Matplotlib, Seaborn<br>Applying Six Sigma methodology to clinical data quality<br>⚡ Fun fact<br>I've worked on predicting blood cell counts without drawing a single drop of blood — using light sensors and machine learning trained on real hospital data.
 
-<!--
-**aspathak2705/aspathak2705** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+## 🌐 Socials:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ooiatharv) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Atharva Pathak ) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:atharvapathak2705@gmail.com) 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# 💻 Tech Stack:
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=aspathak2705&theme=graywhite&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=aspathak2705&theme=graywhite&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=aspathak2705&theme=graywhite&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
