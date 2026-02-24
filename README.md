@@ -1,48 +1,37 @@
-const atharva = {
 
-    role: "AI & Machine Learning Developer",
-    
-    code: ["Python", "Java", "SQL"],
-    
-    askMeAbout: [
-        "machine learning",
-        "healthcare AI",
-        "NLP projects",
-        "IoT + ML integration",
-        "data-driven problem solving"
-    ],
-    technologies: {
-    
-        ai_ml: [
-            "Scikit-learn",
-            "EDA",
-            "Predictive Modeling",
-            "Model Interpretability (LIME)"
-        ],
-        
-        dataScience: [
-            "NumPy",
-            "Pandas",
-            "Matplotlib",
-            "Seaborn"
-        ],
-        
-        nlp: [
-            "Text Classification",
-            "Summarization",
-            "Dataset Creation"
-        ],
-        
-        tools: [
-            "Streamlit",
-            "Git",
-            "Vercel",
-            "Jupyter"
-        ]
-    },
-    currentFocus: "Building real-world AI solutions Using ML",
-    education: "B.Tech Computer Science | 9.4 CGPA"
-};
+    const atharva
+         {
+            role: "AI & Machine Learning Developer",
+            
+            code: ["Python", "Java", "SQL"],
+            
+            askMeAbout: [
+                "machine learning",
+                "healthcare AI",
+                "NLP projects",
+                "IoT + ML integration",
+                "data-driven problem solving"
+            ],
+            technologies: {
+            
+                ai_ml: [
+                    "Scikit-learn",
+                    "EDA",
+                    "Predictive Modeling",
+                    "Model Interpretability (LIME)"
+                    "NLP"
+                ],
+                dataScience: [
+                    "NumPy",
+                    "Pandas",
+                    "Matplotlib",
+                    "Seaborn"
+                ],
+            },
+            currentFocus: "Building real-world AI solutions Using ML",
+            education: "B.Tech Computer Science | 9.4 CGPA" 
+        };
+
 
 
 ## 🌐 Socials:
