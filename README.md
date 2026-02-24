@@ -1,57 +1,48 @@
 # 💫 About Me:
-const atharva = {<br>
-    role: "AI & Machine Learning Developer",<br>
-    code: ["Python", "Java", "SQL"],<br>
-    askMeAbout: [<br>
-        "machine learning",<br>
-        "healthcare AI",<br>
-        "NLP projects",<br>
-        "IoT + ML integration",<br>
-        "data-driven problem solving"<br>
-    ],<br>
-    technologies: {<br>
+
+const atharva = {
+    role: "AI & Machine Learning Developer",
     
-        ai_ml: [<br>
-            "Scikit-learn",<br>
-            "EDA",<br>
-            "Predictive Modeling",<br>
-            "Model Interpretability (LIME)"<br>
-        ],<br>
+    code: ["Python", "Java", "SQL"],
+    
+    askMeAbout: [
+        "machine learning",
+        "healthcare AI",
+        "NLP projects",
+        "IoT + ML integration",
+        "data-driven problem solving"
+    ],
+    technologies: {
+    
+        ai_ml: [
+            "Scikit-learn",
+            "EDA",
+            "Predictive Modeling",
+            "Model Interpretability (LIME)"
+        ],
         
-        dataScience: [<br>
-            "NumPy",<br>
-            "Pandas",<br>
-            "Matplotlib",<br>
-            "Seaborn"<br>
-        ],<br>
+        dataScience: [
+            "NumPy",
+            "Pandas",
+            "Matplotlib",
+            "Seaborn"
+        ],
         
-        nlp: [<br>
-            "Text Classification",<br>
-            "Summarization",<br>
-            "Dataset Creation"<br>
-        ],<br>
+        nlp: [
+            "Text Classification",
+            "Summarization",
+            "Dataset Creation"
+        ],
         
-        iot_ai: [<br>
-            "MAX30102",<br>
-            "AS7341",<br>
-            "OPT3004",<br>
-            "Sensor-driven ML"<br>
-        ],<br>
-        
-        timeSeries: [<br>
-            "ARIMA",<br>
-            "Forecasting"<br>
-        ],<br>
-        
-        tools: [<br>
-            "Python",<br>
-            "Streamlit",<br>
-            "Git",<br>
-            "Jupyter"<br>
-        ]<br>
-    },<br>
-    currentFocus: "Building real-world AI solutions Using ML",<br>
-    education: "B.Tech Computer Science | 9.2 CGPA"<br>
+        tools: [
+            "Streamlit",
+            "Git",
+            "Vercel",
+            "Jupyter"
+        ]
+    },
+    currentFocus: "Building real-world AI solutions Using ML",
+    education: "B.Tech Computer Science | 9.4 CGPA"
 };
 
 
