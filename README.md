@@ -1,14 +1,14 @@
-<!-- 01 — COVER SPLASH (REF SVG #1: Across The Spider-Verse Wallpaper.svg INLINED) -->
+<!-- 01 — COVER SPLASH (REF SVG #1: Across The Spider-Verse Wallpaper.svg - Aspect 0.50 Portrait Fit) -->
 <p align="center">
   <img src="./assets/scenes/scene01-cover.svg" width="100%" alt="Issue #01: Atharva Pathak - AI Engineer Cover Splash" />
 </p>
 
-<!-- 02 — COMIC STRIP (REF SVG #2: Spider Man Into The Spider Verse Poster.svg INLINED) -->
+<!-- 02 — COMIC STRIP (REF SVG #2: Spider Man Into The Spider Verse Poster.svg - Aspect 0.67 Portrait Fit) -->
 <p align="center">
   <img src="./assets/scenes/scene02-strip.svg" width="100%" alt="Scene 02: Curiosity Origin Strip" />
 </p>
 
-<!-- 03 — OPEN CHARACTER MOMENT (REF SVG #3: Spider-Man Homecoming... PNG.svg INLINED) -->
+<!-- 03 — OPEN CHARACTER MOMENT (REF SVG #3: Spider-Man Homecoming... PNG.svg - Aspect 0.59 Portrait Fit) -->
 <p align="center">
   <img src="./assets/scenes/scene03-rooftop.svg" width="100%" alt="Scene 03: Rooftop Perspective" />
 </p>
@@ -18,12 +18,12 @@
   <img src="./assets/scenes/scene04-sense.svg" width="100%" alt="Scene 04: Spider-Sense Power Set" />
 </p>
 
-<!-- 05 — FULL-WIDTH MULTIVERSE SPLASH (REF SVG #4: Spider Man_ Across The Spider Verse Wallpaper.svg INLINED) -->
+<!-- 05 — FULL-WIDTH MULTIVERSE SPLASH (REF SVG #4: Spider Man_ Across The Spider Verse Wallpaper.svg - Aspect 2.22 Wide Fit) -->
 <p align="center">
   <img src="./assets/scenes/scene05-leap.svg" width="100%" alt="Scene 05: Leaping into Multiverse" />
 </p>
 
-<!-- 06 — PROJECT UNIVERSES (STANDARDIZED ART PANELS & 36%/64% RATIOS) -->
+<!-- 06 — PROJECT UNIVERSES (ASPECT-MATCHED ART PANELS: SQUARE / PORTRAIT / ULTRA-WIDE) -->
 <p align="center">
   <img src="./assets/scenes/project-meravyapar.svg" width="100%" alt="Universe 01: MeraVyapar AI" />
 </p>
@@ -40,17 +40,17 @@
   <img src="./assets/scenes/project-autohr.svg" width="100%" alt="Universe 04: AutoHR" />
 </p>
 
-<!-- 07 — MISSION CONTROL (REF SVG #9: Bookmarks _ X.svg INLINED) -->
+<!-- 07 — MISSION CONTROL (REF SVG #9: Bookmarks _ X.svg - Aspect 1.78 Wide Fit) -->
 <p align="center">
   <img src="./assets/scenes/mission-control.svg" width="100%" alt="Scene 07: Mission Control Logs" />
 </p>
 
-<!-- 08 — ACTION SEQUENCE & MULTIVERSE CITY (REF SVG #6: MUMBATTAN.svg INLINED) -->
+<!-- 08 — ACTION SEQUENCE & MULTIVERSE CITY (REF SVG #6: MUMBATTAN.svg - Aspect 2.39 Panoramic Fit) -->
 <p align="center">
   <img src="./assets/scenes/multiverse-city.svg" width="100%" alt="Scene 08: Multiverse City Districts" />
 </p>
 
-<!-- 09 — CINEMATIC ENDING SPLASH (REF SVG #10: download (3).svg INLINED) -->
+<!-- 09 — CINEMATIC ENDING SPLASH WITH FULL-SECTION ATMOSPHERIC BACKGROUND (REF SVG #10: download (3).svg - Aspect 1.70 Fit) -->
 <p align="center">
   <img src="./assets/scenes/scene08-ending.svg" width="100%" alt="Scene 09: Cinematic Ending Splash" />
 </p>
