@@ -7,9 +7,9 @@
   <img src="./assets/scenes/origin.svg" width="100%" alt="Scene 01: Origin Story" />
 </p>
 
-<!-- SCENE 02: CHARACTER DOSSIER -->
+<!-- SCENE 02: CHARACTER DOSSIER WITH SPIDER-VERSE HERO SILHOUETTE -->
 <p align="center">
-  <img src="./assets/scenes/character-profile.svg" width="100%" alt="Scene 02: Protagonist File" />
+  <img src="./assets/scenes/character-profile.svg" width="100%" alt="Scene 02: Protagonist File Dossier" />
 </p>
 
 <!-- SCENE 03: TECH MULTIVERSE MAP -->
@@ -44,17 +44,22 @@
   <img src="./assets/scenes/mission-control.svg" width="100%" alt="Scene 06: Mission Control" />
 </p>
 
-<!-- SCENE 07: GITHUB MULTIVERSE ACTIVITY -->
+<!-- SCENE 07: MULTIVERSE CITY & DISTRICTS -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aspathak2705&theme=react-dark&bg_color=070B14&color=FF3040&line=20D9FF&point=F5F2E8&area=true&hide_border=true" width="95%" alt="Dimensional Footprints Activity Graph" />
+  <img src="./assets/scenes/multiverse-city.svg" width="100%" alt="Scene 07: Multiverse City & Districts" />
 </p>
 
-<!-- SCENE 08: CITYSCAPE BREATHING BREAK -->
+<!-- SCENE 08: GITHUB MULTIVERSE ACTIVITY -->
 <p align="center">
-  <img src="./assets/scenes/city-break.svg" width="100%" alt="Scene 08: City Skyline Intermission" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aspathak2705&theme=react-dark&bg_color=070B14&color=FF3045&line=26D9FF&point=F2EEE6&area=true&hide_border=true" width="95%" alt="Dimensional Footprints Activity Graph" />
 </p>
 
-<!-- SCENE 09: FINAL POSTER & MULTIVERSE CONNECT -->
+<!-- SCENE 09: CITYSCAPE BREATHING BREAK -->
 <p align="center">
-  <img src="./assets/scenes/final-scene.svg" width="100%" alt="Scene 09: Final Poster & Connect" />
+  <img src="./assets/scenes/city-break.svg" width="100%" alt="Scene 09: City Skyline Intermission" />
+</p>
+
+<!-- SCENE 10: FINAL POSTER & MULTIVERSE CONNECT -->
+<p align="center">
+  <img src="./assets/scenes/final-scene.svg" width="100%" alt="Scene 10: Final Poster & Connect" />
 </p>
