@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="stripSky" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E86A33" />
+      <stop offset="50%" stop-color="#B83228" />
+      <stop offset="100%" stop-color="#54152B" />
+    </linearGradient>
+
+    <style>
+      @keyframes swingMove {
+        0% { transform: translate(0, 0); }
+        50% { transform: translate(30px, -15px); }
+        100% { transform: translate(0, 0); }
+      }
+      .anim-swing { animation: swingMove 4s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="450" fill="url(#stripSky)" />
+
+  <!-- HIGH-VISIBILITY SPIDER-MAN POSTER REFERENCE ARTWORK INTEGRATION -->
+  <g transform="translate(40, 20)" opacity="0.9">
+    <image href="../reference/Spider Man Into The Spider Verse Poster.svg" x="0" y="-80" width="550" height="550" preserveAspectRatio="xMidYMid slice" />
+  </g>
+
+  <!-- FOREGROUND CHARACTER 2: atharva-swing.svg EMBEDDED DYNAMIC ACTION -->
+  <g transform="translate(580, 40)" class="anim-swing">
+    <image href="../characters/atharva-swing.svg" x="0" y="0" width="300" height="350" />
+  </g>
+
+  <!-- SWINGING KINETIC WEB TRAJECTORY GUIDING EYE TO NEXT SECTION -->
+  <path d="M 750,180 Q 1100,320 1550,120" stroke="#F5B041" stroke-width="5" stroke-dasharray="12,6" fill="none" />
+
+  <!-- COMIC NARRATION CAPTION BOX (NO RECTANGULAR OVERLAY BORDERS) -->
+  <g transform="translate(900, 100)">
+    <polygon points="0,0 640,0 600,260 0,260" fill="#1A0A1F" stroke="#F5B041" stroke-width="3" />
+    
+    <text x="40" y="50" font-family="'Impact', sans-serif" font-size="28" fill="#F5B041" letter-spacing="2">EVERY UNIVERSE STARTS WITH CURIOSITY.</text>
+
+    <g font-family="'Courier New', monospace" font-size="15" fill="#F5F1E8">
+      <text x="40" y="100">Mine started with a question:</text>
+      <text x="40" y="135" font-weight="700" fill="#F5B041">"What if machines could retrieve knowledge, reason over context,</text>
+      <text x="40" y="165" font-weight="700" fill="#E86A33">and safely act in real-world workflows?"</text>
+      <text x="40" y="215" fill="#D0C4DF">A question became an experiment. Experiments became systems.</text>
+    </g>
+  </g>
+</svg>

@@ -1,60 +1,81 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 550" width="100%" height="100%">
   <defs>
-    <style>
-      @keyframes activeGlow {
-        0% { stroke-opacity: 0.4; }
-        50% { stroke-opacity: 1; }
-        100% { stroke-opacity: 0.4; }
-      }
-      .anim-glow { animation: activeGlow 3s infinite ease-in-out; }
-    </style>
+    <linearGradient id="powerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D112C" />
+      <stop offset="60%" stop-color="#6B1D38" />
+      <stop offset="100%" stop-color="#2D112C" />
+    </linearGradient>
+
+    <clipPath id="powerArtClip">
+      <circle cx="240" cy="240" r="190" />
+    </clipPath>
   </defs>
 
-  <rect width="1600" height="550" fill="#080C14" />
-  
-  <!-- EMBEDDED OFFICIAL SPIDER-MAN HOMECOMING PNG/SVG REFERENCE ARTWORK -->
-  <g transform="translate(40, 40)" opacity="0.5">
-    <image href="../reference/Spider-Man_ Homecoming Film Series Marvel Cinematic Universe Spider-Man_ Homecoming Film Series Marvel Studios PNG.svg" x="0" y="-60" width="520" height="520" preserveAspectRatio="xMidYMid slice" />
-  </g>
+  <rect width="1600" height="550" fill="url(#powerBg)" />
+  <rect x="20" y="20" width="1560" height="510" fill="none" stroke="#F5F1E8" stroke-width="4" />
 
-  <rect x="20" y="20" width="1560" height="510" fill="none" stroke="#F2EEE6" stroke-width="4" />
-
-  <!-- SECTION HEADER LABEL -->
+  <!-- SECTION HEADER -->
   <g transform="translate(60, 45)">
-    <rect x="0" y="0" width="260" height="35" fill="#7C4DFF" stroke="#080C14" stroke-width="2" />
-    <text x="130" y="23" font-family="'Courier New', monospace" font-size="14" font-weight="900" fill="#F2EEE6" text-anchor="middle" letter-spacing="3">SCENE 02 // THE BUILDER</text>
+    <rect x="0" y="0" width="220" height="38" fill="#E86A33" stroke="#2D112C" stroke-width="2" />
+    <text x="110" y="24" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#F5F1E8" text-anchor="middle" letter-spacing="3">THE POWER SET</text>
   </g>
 
-  <!-- CONCISE BUILDER DOSSIER CARD WITH TIERED TYPOGRAPHY -->
-  <g transform="translate(580, 70)">
-    <rect x="0" y="0" width="940" height="410" fill="#0D1117" stroke="#26D9F3" stroke-width="3" class="anim-glow" />
-    
-    <!-- TIER 1 HERO NAME -->
-    <text x="40" y="55" font-family="'Impact', sans-serif" font-size="38" font-weight="900" fill="#F2EEE6" letter-spacing="3">ATHARVA PATHAK</text>
-    <text x="760" y="50" font-family="'Courier New', monospace" font-size="16" font-weight="900" fill="#FFD34E">[ EARTH-2705 ]</text>
+  <!-- LEFT EMBEDDED OFFICIAL SPIDER-MAN HOMECOMING ARTWORK IN PORTAL -->
+  <g transform="translate(60, 100)">
+    <circle cx="240" cy="240" r="195" fill="none" stroke="#F2A154" stroke-width="3" stroke-dasharray="8,4" />
+    <g clip-path="url(#powerArtClip)" opacity="0.95">
+      <image href="../reference/Spider-Man_ Homecoming Film Series Marvel Cinematic Universe Spider-Man_ Homecoming Film Series Marvel Studios PNG.svg" x="30" y="30" width="420" height="420" preserveAspectRatio="xMidYMid slice" />
+    </g>
+  </g>
 
-    <!-- TIER 2 & TIER 3 ESSENTIAL FIELDS -->
-    <g transform="translate(40, 95)">
-      <!-- Field 1: Role -->
-      <rect x="0" y="0" width="860" height="50" fill="#080C14" stroke="#26D9F3" stroke-width="1.5" />
-      <text x="20" y="32" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#26D9F3">ROLE:</text>
-      <text x="220" y="32" font-family="'Impact', sans-serif" font-size="22" fill="#F2EEE6" letter-spacing="2">AI ENGINEER</text>
-
-      <!-- Field 2: Focus -->
-      <rect x="0" y="65" width="860" height="50" fill="#080C14" stroke="#7C4DFF" stroke-width="1.5" />
-      <text x="20" y="97" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#7C4DFF">FOCUS:</text>
-      <text x="220" y="97" font-family="'Courier New', monospace" font-size="15" font-weight="700" fill="#FFD34E">LLMs · RAG · AGENTIC SYSTEMS · LANGGRAPH</text>
-
-      <!-- Field 3: Currently -->
-      <rect x="0" y="130" width="860" height="50" fill="#080C14" stroke="#FFD34E" stroke-width="1.5" />
-      <text x="20" y="162" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#FFD34E">CURRENTLY:</text>
-      <text x="220" y="162" font-family="'Courier New', monospace" font-size="15" font-weight="700" fill="#FF3045">BUILDING INTELLIGENT SYSTEMS THAT REASON BEYOND PROMPTS</text>
-
-      <!-- TIER 4 READABLE BODY QUOTE -->
-      <rect x="0" y="195" width="860" height="75" fill="#080C14" stroke="#F2EEE6" stroke-width="1.5" />
-      <text x="20" y="225" font-family="'Courier New', monospace" font-size="14" fill="#F2EEE6">"Designing multi-agent workflows that retain long-term memory, reason over complex evidence, and safely execute real-world actions."</text>
+  <!-- RIGHT SPIDER GADGET BLUEPRINT / POWERS GRID -->
+  <g transform="translate(560, 90)">
+    <!-- POWER 1: SPIDER-SENSE -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="460" height="190" fill="#2D112C" stroke="#F2A154" stroke-width="2" />
+      <text x="25" y="38" font-family="'Impact', sans-serif" font-size="22" fill="#F2A154" letter-spacing="2">SPIDER-SENSE // RETRIEVAL &amp; CONTEXT</text>
+      <g transform="translate(25, 60)" font-family="'Courier New', monospace" font-size="14" fill="#F5F1E8">
+        <text x="0" y="20">→ Retrieval-Augmented Generation (RAG)</text>
+        <text x="0" y="45">→ Context Understanding &amp; Evidence Parsing</text>
+        <text x="0" y="70">→ Vector Search &amp; Dense Embeddings</text>
+        <text x="0" y="95" fill="#E86A33" font-weight="700">Tech: Qdrant • PGVector • Embeddings</text>
+      </g>
     </g>
 
-    <text x="40" y="385" font-family="'Courier New', monospace" font-size="13" fill="#8B949E" font-style="italic">// MULTIVERSE IDENTIFIER: aspathak2705 • ALL SYSTEMS OPERATIONAL</text>
+    <!-- POWER 2: WEB-SHOOTERS -->
+    <g transform="translate(490, 0)">
+      <rect x="0" y="0" width="460" height="190" fill="#2D112C" stroke="#E86A33" stroke-width="2" />
+      <text x="25" y="38" font-family="'Impact', sans-serif" font-size="22" fill="#E86A33" letter-spacing="2">WEB-SHOOTERS // AGENTIC WORKFLOWS</text>
+      <g transform="translate(25, 60)" font-family="'Courier New', monospace" font-size="14" fill="#F5F1E8">
+        <text x="0" y="20">→ Stateful Multi-Agent Orchestration</text>
+        <text x="0" y="45">→ Complex Execution Graphs &amp; Tool Access</text>
+        <text x="0" y="70">→ Autonomous Workflow Reasoning</text>
+        <text x="0" y="95" fill="#F2A154" font-weight="700">Tech: LangGraph • LangChain • Agents</text>
+      </g>
+    </g>
+
+    <!-- POWER 3: MULTIVERSE NAVIGATION -->
+    <g transform="translate(0, 210)">
+      <rect x="0" y="0" width="460" height="190" fill="#2D112C" stroke="#6B1D38" stroke-width="2" />
+      <text x="25" y="38" font-family="'Impact', sans-serif" font-size="22" fill="#F5F1E8" letter-spacing="2">MULTIVERSE NAVIGATION // LLM APPS</text>
+      <g transform="translate(25, 60)" font-family="'Courier New', monospace" font-size="14" fill="#F5F1E8">
+        <text x="0" y="20">→ Large Language Models (LLMs)</text>
+        <text x="0" y="45">→ Prompt Engineering &amp; Fine-tuning</text>
+        <text x="0" y="70">→ Knowledge Graph Reasoning</text>
+        <text x="0" y="95" fill="#E86A33" font-weight="700">Tech: PyTorch • Transformers • Ollama</text>
+      </g>
+    </g>
+
+    <!-- POWER 4: CITY INFRASTRUCTURE -->
+    <g transform="translate(490, 210)">
+      <rect x="0" y="0" width="460" height="190" fill="#2D112C" stroke="#F2A154" stroke-width="2" />
+      <text x="25" y="38" font-family="'Impact', sans-serif" font-size="22" fill="#F2A154" letter-spacing="2">CITY INFRASTRUCTURE // PRODUCTION</text>
+      <g transform="translate(25, 60)" font-family="'Courier New', monospace" font-size="14" fill="#F5F1E8">
+        <text x="0" y="20">→ High-Performance REST APIs</text>
+        <text x="0" y="45">→ Production Containerization &amp; Deployment</text>
+        <text x="0" y="70">→ Relational &amp; In-Memory Data Layers</text>
+        <text x="0" y="95" fill="#E86A33" font-weight="700">Tech: Python • FastAPI • PostgreSQL • Docker</text>
+      </g>
+    </g>
   </g>
 </svg>

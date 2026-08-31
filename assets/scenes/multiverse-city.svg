@@ -1,11 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" width="100%" height="100%">
   <defs>
     <linearGradient id="cityDistrictBg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#080C14" />
-      <stop offset="25%" stop-color="#190C1A" />
-      <stop offset="50%" stop-color="#0B1A24" />
-      <stop offset="75%" stop-color="#140B1D" />
-      <stop offset="100%" stop-color="#1A150B" />
+      <stop offset="0%" stop-color="#1A0A1F" />
+      <stop offset="35%" stop-color="#54152B" />
+      <stop offset="65%" stop-color="#2D112C" />
+      <stop offset="100%" stop-color="#E86A33" />
     </linearGradient>
 
     <clipPath id="mumbattanClip">
@@ -15,60 +14,60 @@
 
   <rect width="1600" height="500" fill="url(#cityDistrictBg)" />
   
-  <!-- EMBEDDED OFFICIAL MUMBATTAN REFERENCE ARTWORK (BACKGROUND ENVIRONMENT SOURCE FROM assets/reference/) -->
-  <g transform="translate(40, 20)" opacity="0.3" clip-path="url(#mumbattanClip)">
+  <!-- PROMINENT FOREGROUND EMBED OF REFERENCE SVG #6: MUMBATTAN.svg (90% OPACITY) -->
+  <g transform="translate(40, 20)" opacity="0.9" clip-path="url(#mumbattanClip)">
     <image href="../reference/MUMBATTAN.svg" x="0" y="-100" width="1520" height="600" preserveAspectRatio="xMidYMid slice" />
   </g>
 
-  <rect x="20" y="20" width="1560" height="460" fill="none" stroke="#F2EEE6" stroke-width="4" />
+  <rect x="20" y="20" width="1560" height="460" fill="none" stroke="#F5F1E8" stroke-width="4" />
 
   <!-- SECTION HEADER -->
   <g transform="translate(60, 45)">
-    <rect x="0" y="0" width="380" height="40" fill="#26D9F3" stroke="#080C14" stroke-width="2" />
-    <text x="190" y="26" font-family="'Courier New', monospace" font-size="16" font-weight="900" fill="#080C14" text-anchor="middle" letter-spacing="3">SCENE 07 // MULTIVERSE CITY</text>
+    <polygon points="0,0 380,0 360,40 0,40" fill="#E86A33" stroke="#F5F1E8" stroke-width="2" />
+    <text x="190" y="26" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#F5F1E8" text-anchor="middle" letter-spacing="3">MULTIVERSE CITY // DISTRICTS</text>
   </g>
 
-  <!-- FOUR PROJECT DISTRICTS -->
+  <!-- FOUR PROJECT DISTRICT OVERLAYS -->
   <!-- DISTRICT 1: FINANCIAL DISTRICT (MERAVYAPAR) -->
   <g transform="translate(60, 110)">
-    <rect x="0" y="0" width="340" height="340" fill="#080C14" opacity="0.9" stroke="#FF3045" stroke-width="3" />
-    <text x="20" y="40" font-family="'Impact', sans-serif" font-size="24" fill="#FF3045" letter-spacing="1">FINANCIAL DISTRICT</text>
-    <text x="20" y="65" font-family="'Courier New', monospace" font-size="14" fill="#FFD34E">// MeraVyapar AI</text>
-    <text x="20" y="110" font-family="'Courier New', monospace" font-size="13" fill="#F2EEE6">Fragmented transaction signals</text>
-    <text x="20" y="130" font-family="'Courier New', monospace" font-size="13" fill="#F2EEE6">&amp; evidence graph engine.</text>
-    <circle cx="280" cy="260" r="40" fill="none" stroke="#FF3045" stroke-width="2" stroke-dasharray="4,2" />
+    <rect x="0" y="0" width="340" height="340" fill="#1A0A1F" opacity="0.9" stroke="#E86A33" stroke-width="3" />
+    <text x="20" y="40" font-family="'Impact', sans-serif" font-size="24" fill="#E86A33" letter-spacing="1">FINANCIAL DISTRICT</text>
+    <text x="20" y="65" font-family="'Courier New', monospace" font-size="14" fill="#F5B041">// MeraVyapar AI</text>
+    <text x="20" y="110" font-family="'Courier New', monospace" font-size="13" fill="#F5F1E8">Fragmented transaction signals</text>
+    <text x="20" y="130" font-family="'Courier New', monospace" font-size="13" fill="#F5F1E8">&amp; evidence graph engine.</text>
+    <circle cx="280" cy="260" r="40" fill="none" stroke="#E86A33" stroke-width="2" stroke-dasharray="4,2" />
   </g>
 
   <!-- DISTRICT 2: DOCUMENT DISTRICT (BHOOMIFLOW) -->
   <g transform="translate(430, 110)">
-    <rect x="0" y="0" width="340" height="340" fill="#080C14" opacity="0.9" stroke="#26D9F3" stroke-width="3" />
-    <text x="20" y="40" font-family="'Impact', sans-serif" font-size="24" fill="#26D9F3" letter-spacing="1">DOCUMENT DISTRICT</text>
-    <text x="20" y="65" font-family="'Courier New', monospace" font-size="14" fill="#FFD34E">// BhoomiFlow</text>
-    <text x="20" y="110" font-family="'Courier New', monospace" font-size="13" fill="#F2EEE6">Land case evidence integrity</text>
-    <text x="20" y="130" font-family="'Courier New', monospace" font-size="13" fill="#F2EEE6">&amp; legal document RAG.</text>
-    <circle cx="280" cy="260" r="40" fill="none" stroke="#26D9F3" stroke-width="2" stroke-dasharray="4,2" />
+    <rect x="0" y="0" width="340" height="340" fill="#1A0A1F" opacity="0.9" stroke="#F5B041" stroke-width="3" />
+    <text x="20" y="40" font-family="'Impact', sans-serif" font-size="24" fill="#F5B041" letter-spacing="1">DOCUMENT DISTRICT</text>
+    <text x="20" y="65" font-family="'Courier New', monospace" font-size="14" fill="#E86A33">// BhoomiFlow</text>
+    <text x="20" y="110" font-family="'Courier New', monospace" font-size="13" fill="#F5F1E8">Land case evidence integrity</text>
+    <text x="20" y="130" font-family="'Courier New', monospace" font-size="13" fill="#F5F1E8">&amp; legal document RAG.</text>
+    <circle cx="280" cy="260" r="40" fill="none" stroke="#F5B041" stroke-width="2" stroke-dasharray="4,2" />
   </g>
 
   <!-- DISTRICT 3: OPEN SOURCE DISTRICT (FORGEMIND) -->
   <g transform="translate(800, 110)">
-    <rect x="0" y="0" width="340" height="340" fill="#080C14" opacity="0.9" stroke="#7C4DFF" stroke-width="3" />
-    <text x="20" y="40" font-family="'Impact', sans-serif" font-size="24" fill="#7C4DFF" letter-spacing="1">CODEBASE DISTRICT</text>
-    <text x="20" y="65" font-family="'Courier New', monospace" font-size="14" fill="#FFD34E">// ForgeMind</text>
-    <text x="20" y="110" font-family="'Courier New', monospace" font-size="13" fill="#F2EEE6">Repository intelligence &amp; issue</text>
-    <text x="20" y="130" font-family="'Courier New', monospace" font-size="13" fill="#F2EEE6">triaging copilot.</text>
-    <circle cx="280" cy="260" r="40" fill="none" stroke="#7C4DFF" stroke-width="2" stroke-dasharray="4,2" />
+    <rect x="0" y="0" width="340" height="340" fill="#1A0A1F" opacity="0.9" stroke="#54152B" stroke-width="3" />
+    <text x="20" y="40" font-family="'Impact', sans-serif" font-size="24" fill="#F5F1E8" letter-spacing="1">CODEBASE DISTRICT</text>
+    <text x="20" y="65" font-family="'Courier New', monospace" font-size="14" fill="#F5B041">// ForgeMind</text>
+    <text x="20" y="110" font-family="'Courier New', monospace" font-size="13" fill="#F5F1E8">Repository intelligence &amp; issue</text>
+    <text x="20" y="130" font-family="'Courier New', monospace" font-size="13" fill="#F5F1E8">triaging copilot.</text>
+    <circle cx="280" cy="260" r="40" fill="none" stroke="#54152B" stroke-width="2" stroke-dasharray="4,2" />
   </g>
 
   <!-- DISTRICT 4: AUTOMATION DISTRICT (AUTOHR) -->
   <g transform="translate(1170, 110)">
-    <rect x="0" y="0" width="340" height="340" fill="#080C14" opacity="0.9" stroke="#FFD34E" stroke-width="3" />
-    <text x="20" y="40" font-family="'Impact', sans-serif" font-size="24" fill="#FFD34E" letter-spacing="1">AUTOMATION DISTRICT</text>
-    <text x="20" y="65" font-family="'Courier New', monospace" font-size="14" fill="#FFD34E">// AutoHR</text>
-    <text x="20" y="110" font-family="'Courier New', monospace" font-size="13" fill="#F2EEE6">Automated meeting workflows</text>
-    <text x="20" y="130" font-family="'Courier New', monospace" font-size="13" fill="#F2EEE6">&amp; induction narration.</text>
-    <circle cx="280" cy="260" r="40" fill="none" stroke="#FFD34E" stroke-width="2" stroke-dasharray="4,2" />
+    <rect x="0" y="0" width="340" height="340" fill="#1A0A1F" opacity="0.9" stroke="#E86A33" stroke-width="3" />
+    <text x="20" y="40" font-family="'Impact', sans-serif" font-size="24" fill="#E86A33" letter-spacing="1">AUTOMATION DISTRICT</text>
+    <text x="20" y="65" font-family="'Courier New', monospace" font-size="14" fill="#F5B041">// AutoHR</text>
+    <text x="20" y="110" font-family="'Courier New', monospace" font-size="13" fill="#F5F1E8">Automated meeting workflows</text>
+    <text x="20" y="130" font-family="'Courier New', monospace" font-size="13" fill="#F5F1E8">&amp; induction narration.</text>
+    <circle cx="280" cy="260" r="40" fill="none" stroke="#E86A33" stroke-width="2" stroke-dasharray="4,2" />
   </g>
 
-  <!-- SWINGING MOTION WEB PATH -->
-  <path d="M 100,200 Q 800,450 1500,200" fill="none" stroke="#26D9F3" stroke-width="3" stroke-dasharray="8,4" opacity="0.8" />
+  <!-- SPIDER WEB STRAND OVERLAY CONNECTING DISTRICTS -->
+  <path d="M 100,200 Q 800,450 1500,200" fill="none" stroke="#F5B041" stroke-width="3" stroke-dasharray="8,4" opacity="0.85" />
 </svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rooftopSunset" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#54152B" />
+      <stop offset="60%" stop-color="#2D112C" />
+      <stop offset="100%" stop-color="#1A0A1F" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="500" fill="url(#rooftopSunset)" />
+
+  <!-- MIDGROUND HIGH-VISIBILITY SPIDER-MAN HOMECOMING ARTWORK EMBED -->
+  <g transform="translate(60, 40)" opacity="0.95">
+    <image href="../reference/Spider-Man_ Homecoming Film Series Marvel Cinematic Universe Spider-Man_ Homecoming Film Series Marvel Studios PNG.svg" x="0" y="-30" width="450" height="450" preserveAspectRatio="xMidYMid slice" />
+  </g>
+
+  <!-- FOREGROUND CHARACTER 3: atharva-rooftop.svg EMBEDDED HIGH VISIBILITY -->
+  <g transform="translate(480, 80)">
+    <image href="../characters/atharva-rooftop.svg" x="0" y="0" width="360" height="380" />
+  </g>
+
+  <!-- RIGHT CINEMATIC ROOFTOP PHILOSOPHY CARD -->
+  <g transform="translate(860, 80)">
+    <polygon points="0,0 680,0 640,340 0,340" fill="#1A0A1F" stroke="#F5B041" stroke-width="3" />
+    
+    <text x="40" y="55" font-family="'Impact', sans-serif" font-size="32" fill="#F5B041" letter-spacing="2">THE ROOFTOP PERSPECTIVE</text>
+
+    <g font-family="'Courier New', monospace" font-size="16" fill="#F5F1E8">
+      <text x="40" y="115" font-weight="900" fill="#E86A33">"Every engineer sees a problem."</text>
+      <text x="40" y="145" font-weight="900" fill="#F5B041">"I see a living system waiting to be understood."</text>
+
+      <text x="40" y="210" fill="#F5F1E8">DESIGNATION: AI ENGINEER</text>
+      <text x="40" y="240" fill="#F5F1E8">FOCUS: LLMs • RAG • AGENTIC SYSTEMS • LANGGRAPH</text>
+      <text x="40" y="270" fill="#D0C4DF">LOCATION: EARTH-2705 // ONLINE</text>
+    </g>
+  </g>
+</svg>

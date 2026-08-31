@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 550" width="100%" height="100%">
+  <defs>
+    <linearGradient id="leapBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0A1F" />
+      <stop offset="50%" stop-color="#54152B" />
+      <stop offset="100%" stop-color="#B83228" />
+    </linearGradient>
+
+    <style>
+      @keyframes leapMotion {
+        0% { transform: translate(0, 0); }
+        50% { transform: translate(25px, -20px); }
+        100% { transform: translate(0, 0); }
+      }
+      .anim-leap { animation: leapMotion 3.5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="550" fill="url(#leapBg)" />
+
+  <!-- MIDGROUND HIGH-VISIBILITY SPIDER-VERSE WALLPAPER ARTWORK EMBED -->
+  <g transform="translate(40, 20)" opacity="0.95">
+    <image href="../reference/Spider Man_ Across The Spider Verse Wallpaper.svg" x="0" y="-80" width="850" height="600" preserveAspectRatio="xMidYMid slice" />
+  </g>
+
+  <!-- FOREGROUND CHARACTER 4: atharva-leap.svg EMBEDDED DYNAMIC LEAP INTO MULTIVERSE -->
+  <g transform="translate(680, 50)" class="anim-leap">
+    <image href="../characters/atharva-leap.svg" x="0" y="0" width="380" height="420" />
+  </g>
+
+  <!-- KINETIC DYNAMIC TRAJECTORY INTO PROJECT UNIVERSES -->
+  <path d="M 980,260 Q 1250,380 1550,220" stroke="#F5B041" stroke-width="6" stroke-dasharray="12,6" fill="none" />
+
+  <!-- RIGHT PORTAL INTRODUCTION NARRATIVE -->
+  <g transform="translate(1080, 90)">
+    <polygon points="0,0 480,0 440,360 0,360" fill="#1A0A1F" stroke="#F5B041" stroke-width="3" />
+    
+    <text x="35" y="60" font-family="'Impact', sans-serif" font-size="30" fill="#F5B041" letter-spacing="2">ENTER THE MULTIVERSE</text>
+    <text x="35" y="95" font-family="'Courier New', monospace" font-size="15" fill="#E86A33" font-weight="900">// PROJECT UNIVERSES</text>
+
+    <g font-family="'Courier New', monospace" font-size="15" fill="#F5F1E8">
+      <text x="35" y="160">Every project is a distinct</text>
+      <text x="35" y="190" font-weight="900" fill="#F5B041">multiverse dimension with its</text>
+      <text x="35" y="220" font-weight="900" fill="#E86A33">own architectural story.</text>
+      
+      <text x="35" y="290" font-size="14" fill="#D0C4DF">LEAPING IN →</text>
+    </g>
+  </g>
+</svg>

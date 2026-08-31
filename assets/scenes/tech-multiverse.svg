@@ -1,58 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="100%" height="100%">
   <defs>
+    <linearGradient id="webSunset" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D112C" />
+      <stop offset="50%" stop-color="#6B1D38" />
+      <stop offset="100%" stop-color="#2D112C" />
+    </linearGradient>
+
     <style>
-      @keyframes webPulse {
-        0% { stroke-opacity: 0.3; }
-        50% { stroke-opacity: 0.8; }
-        100% { stroke-opacity: 0.3; }
+      @keyframes warmPulse {
+        0% { stroke-opacity: 0.4; }
+        50% { stroke-opacity: 0.9; }
+        100% { stroke-opacity: 0.4; }
       }
-      .anim-web { animation: webPulse 3s ease-in-out infinite; }
+      .anim-warmweb { animation: warmPulse 3s ease-in-out infinite; }
     </style>
   </defs>
 
-  <rect width="1600" height="700" fill="#080C14" />
+  <rect width="1600" height="700" fill="url(#webSunset)" />
 
   <!-- EMBEDDED OFFICIAL SPIDER-VERSE WALLPAPER REFERENCE BACKGROUND -->
   <g opacity="0.3">
     <image href="../reference/Across The Spider-Verse Wallpaper.svg" x="0" y="-100" width="1600" height="900" preserveAspectRatio="xMidYMid slice" />
   </g>
 
-  <rect x="20" y="20" width="1560" height="660" fill="none" stroke="#F2EEE6" stroke-width="4" />
+  <rect x="20" y="20" width="1560" height="660" fill="none" stroke="#F5F1E8" stroke-width="4" />
 
   <!-- SECTION HEADER -->
   <g transform="translate(60, 45)">
-    <rect x="0" y="0" width="280" height="35" fill="#26D9F3" stroke="#080C14" stroke-width="2" />
-    <text x="140" y="23" font-family="'Courier New', monospace" font-size="14" font-weight="900" fill="#080C14" text-anchor="middle" letter-spacing="3">SCENE 03 // THE MULTIVERSE</text>
+    <rect x="0" y="0" width="280" height="38" fill="#E86A33" stroke="#2D112C" stroke-width="2" />
+    <text x="140" y="24" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#F5F1E8" text-anchor="middle" letter-spacing="3">THE WEB OF THOUGHT</text>
   </g>
 
-  <!-- MULTIVERSE TECH GRAPH WITH ANIMATED WEB STRANDS -->
+  <!-- ORGANIC SUNSET SPIDER WEB GRAPH NETWORK -->
   <g transform="translate(800, 360)">
-    <!-- Radial Web Strands -->
-    <line x1="0" y1="0" x2="-550" y2="-220" stroke="#FF3045" stroke-width="2" class="anim-web" />
-    <line x1="0" y1="0" x2="-280" y2="-250" stroke="#26D9F3" stroke-width="2" class="anim-web" />
-    <line x1="0" y1="0" x2="0" y2="-260" stroke="#F2EEE6" stroke-width="2" class="anim-web" />
-    <line x1="0" y1="0" x2="300" y2="-240" stroke="#26D9F3" stroke-width="2" class="anim-web" />
-    <line x1="0" y1="0" x2="550" y2="-200" stroke="#FF3045" stroke-width="2" class="anim-web" />
-    <line x1="0" y1="0" x2="520" y2="150" stroke="#7C4DFF" stroke-width="2" class="anim-web" />
-    <line x1="0" y1="0" x2="320" y2="220" stroke="#FFD34E" stroke-width="2" class="anim-web" />
-    <line x1="0" y1="0" x2="-340" y2="210" stroke="#26D9F3" stroke-width="2" class="anim-web" />
-    <line x1="0" y1="0" x2="-520" y2="120" stroke="#7C4DFF" stroke-width="2" class="anim-web" />
+    <!-- Organic Curved Web Lines -->
+    <path d="M 0,0 Q -250,-150 -550,-220" stroke="#E86A33" stroke-width="2" fill="none" class="anim-warmweb" />
+    <path d="M 0,0 Q -100,-200 -280,-250" stroke="#F2A154" stroke-width="2" fill="none" class="anim-warmweb" />
+    <path d="M 0,0 Q 0,-180 0,-260" stroke="#F5F1E8" stroke-width="2" fill="none" class="anim-warmweb" />
+    <path d="M 0,0 Q 150,-180 300,-240" stroke="#F2A154" stroke-width="2" fill="none" class="anim-warmweb" />
+    <path d="M 0,0 Q 300,-120 550,-200" stroke="#E86A33" stroke-width="2" fill="none" class="anim-warmweb" />
+    <path d="M 0,0 Q 350,80 520,150" stroke="#C83E34" stroke-width="2" fill="none" class="anim-warmweb" />
+    <path d="M 0,0 Q 180,150 320,220" stroke="#F2A154" stroke-width="2" fill="none" class="anim-warmweb" />
+    <path d="M 0,0 Q -150,150 -340,210" stroke="#E86A33" stroke-width="2" fill="none" class="anim-warmweb" />
+    <path d="M 0,0 Q -300,80 -520,120" stroke="#6B1D38" stroke-width="2" fill="none" class="anim-warmweb" />
 
     <!-- Center Hub Core Node -->
-    <circle cx="0" cy="0" r="75" fill="#080C14" stroke="#FF3045" stroke-width="4" />
-    <circle cx="0" cy="0" r="65" fill="#FF3045" opacity="0.15" />
-    <text x="0" y="-5" font-family="'Impact', sans-serif" font-size="24" fill="#F2EEE6" text-anchor="middle" letter-spacing="2">ATHARVA</text>
-    <text x="0" y="20" font-family="'Courier New', monospace" font-size="14" font-weight="900" fill="#26D9F3" text-anchor="middle">.AI CORE</text>
+    <circle cx="0" cy="0" r="85" fill="#2D112C" stroke="#E86A33" stroke-width="4" />
+    <circle cx="0" cy="0" r="75" fill="#E86A33" opacity="0.2" />
+    <text x="0" y="-8" font-family="'Impact', sans-serif" font-size="26" fill="#F5F1E8" text-anchor="middle" letter-spacing="2">ATHARVA</text>
+    <text x="0" y="22" font-family="'Courier New', monospace" font-size="14" font-weight="900" fill="#F2A154" text-anchor="middle">.AI ENGINEER</text>
 
     <!-- Outer Nodes -->
-    <g transform="translate(-550, -220)"><rect x="-70" y="-22" width="140" height="44" fill="#080C14" stroke="#FF3045" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="20" fill="#F2EEE6" text-anchor="middle">LLMs</text></g>
-    <g transform="translate(-280, -250)"><rect x="-75" y="-22" width="150" height="44" fill="#080C14" stroke="#26D9F3" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#26D9F3" text-anchor="middle">RAG PIPELINES</text></g>
-    <g transform="translate(0, -260)"><rect x="-75" y="-22" width="150" height="44" fill="#080C14" stroke="#FFD34E" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#FFD34E" text-anchor="middle">LANGGRAPH</text></g>
-    <g transform="translate(300, -240)"><rect x="-70" y="-22" width="140" height="44" fill="#080C14" stroke="#FF3045" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#FF3045" text-anchor="middle">AI AGENTS</text></g>
-    <g transform="translate(550, -200)"><rect x="-80" y="-22" width="160" height="44" fill="#080C14" stroke="#7C4DFF" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#F2EEE6" text-anchor="middle">VECTOR SEARCH</text></g>
-    <g transform="translate(520, 150)"><rect x="-70" y="-22" width="140" height="44" fill="#080C14" stroke="#26D9F3" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#26D9F3" text-anchor="middle">FASTAPI</text></g>
-    <g transform="translate(320, 220)"><rect x="-75" y="-22" width="150" height="44" fill="#080C14" stroke="#FFD54A" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#FFD54A" text-anchor="middle">POSTGRESQL</text></g>
-    <g transform="translate(-340, 210)"><rect x="-80" y="-22" width="160" height="44" fill="#080C14" stroke="#FF3045" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#F2EEE6" text-anchor="middle">DOCKER · CLOUD</text></g>
-    <g transform="translate(-520, 120)"><rect x="-70" y="-22" width="140" height="44" fill="#080C14" stroke="#7C4DFF" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#7C4DFF" text-anchor="middle">EMBEDDINGS</text></g>
+    <g transform="translate(-550, -220)"><rect x="-70" y="-22" width="140" height="44" fill="#2D112C" stroke="#E86A33" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="20" fill="#F5F1E8" text-anchor="middle">LLMs</text></g>
+    <g transform="translate(-280, -250)"><rect x="-75" y="-22" width="150" height="44" fill="#2D112C" stroke="#F2A154" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#F2A154" text-anchor="middle">RAG PIPELINES</text></g>
+    <g transform="translate(0, -260)"><rect x="-75" y="-22" width="150" height="44" fill="#2D112C" stroke="#F5F1E8" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#F5F1E8" text-anchor="middle">LANGGRAPH</text></g>
+    <g transform="translate(300, -240)"><rect x="-70" y="-22" width="140" height="44" fill="#2D112C" stroke="#E86A33" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#E86A33" text-anchor="middle">AI AGENTS</text></g>
+    <g transform="translate(550, -200)"><rect x="-80" y="-22" width="160" height="44" fill="#2D112C" stroke="#C83E34" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#F5F1E8" text-anchor="middle">VECTOR SEARCH</text></g>
+    <g transform="translate(520, 150)"><rect x="-70" y="-22" width="140" height="44" fill="#2D112C" stroke="#F2A154" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#F2A154" text-anchor="middle">FASTAPI</text></g>
+    <g transform="translate(320, 220)"><rect x="-75" y="-22" width="150" height="44" fill="#2D112C" stroke="#E86A33" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#E86A33" text-anchor="middle">POSTGRESQL</text></g>
+    <g transform="translate(-340, 210)"><rect x="-80" y="-22" width="160" height="44" fill="#2D112C" stroke="#F5F1E8" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#F5F1E8" text-anchor="middle">DOCKER · CLOUD</text></g>
+    <g transform="translate(-520, 120)"><rect x="-70" y="-22" width="140" height="44" fill="#2D112C" stroke="#6B1D38" stroke-width="2" /><text x="0" y="6" font-family="'Impact', sans-serif" font-size="18" fill="#F2A154" text-anchor="middle">EMBEDDINGS</text></g>
   </g>
 </svg>
