@@ -23,8 +23,7 @@
   <img src="./assets/scenes/scene05-leap.svg" width="100%" alt="Scene 05: Leaping into Multiverse" />
 </p>
 
-<!-- 06 — PROJECT UNIVERSES (REF SVGs #5, #7, #8 INLINED) -->
-<!-- UNIVERSE 01: MERAVYAPAR AI (REF SVG #5: download (4).svg INLINED) -->
+<!-- 06 — PROJECT UNIVERSES (STANDARDIZED ART PANELS & 36%/64% RATIOS) -->
 <p align="center">
   <img src="./assets/scenes/project-meravyapar.svg" width="100%" alt="Universe 01: MeraVyapar AI" />
 </p>
@@ -33,12 +32,10 @@
   <img src="./assets/scenes/project-bhoomiflow.svg" width="100%" alt="Universe 02: BhoomiFlow" />
 </p>
 
-<!-- UNIVERSE 03: FORGEMIND (REF SVG #7: download (5).svg INLINED) -->
 <p align="center">
   <img src="./assets/scenes/project-forgemind.svg" width="100%" alt="Universe 03: ForgeMind" />
 </p>
 
-<!-- UNIVERSE 04: AUTOHR (REF SVG #8: download (6).svg INLINED) -->
 <p align="center">
   <img src="./assets/scenes/project-autohr.svg" width="100%" alt="Universe 04: AutoHR" />
 </p>
@@ -60,12 +57,13 @@
 
 <br />
 
+<!-- STANDARDIZED VISIBLE SOCIAL FOOTER BUTTONS WITH BACKGROUNDS -->
 <p align="center">
-  <a href="https://linkedin.com/in/aspathak2705">
+  <a href="https://linkedin.com/in/aspathak2705" target="_blank">
     <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/aspathak2705">
+  <a href="https://github.com/aspathak2705" target="_blank">
     <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   &nbsp;&nbsp;
