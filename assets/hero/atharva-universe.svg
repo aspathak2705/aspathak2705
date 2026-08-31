@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#070B14" />
+      <stop offset="40%" stop-color="#0D111C" />
+      <stop offset="75%" stop-color="#1A0F2B" />
+      <stop offset="100%" stop-color="#2B0A1E" />
+    </linearGradient>
+
+    <radialGradient id="portalGlow" cx="50%" cy="35%" r="45%">
+      <stop offset="0%" stop-color="#20D9FF" stop-opacity="0.4" />
+      <stop offset="40%" stop-color="#FF3040" stop-opacity="0.25" />
+      <stop offset="80%" stop-color="#7C3AED" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#070B14" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="halftoneDot" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#20D9FF" fill-opacity="0.15" />
+      <circle cx="8" cy="8" r="1.5" fill="#FF3040" fill-opacity="0.15" />
+    </pattern>
+
+    <linearGradient id="buildingGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#070B14" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base Sky & Atmosphere -->
+  <rect width="1600" height="1000" fill="url(#skyGrad)" />
+  <rect width="1600" height="1000" fill="url(#portalGlow)" />
+  <rect width="1600" height="1000" fill="url(#halftoneDot)" />
+
+  <!-- Outer Frame -->
+  <rect x="20" y="20" width="1560" height="960" fill="none" stroke="#F5F2E8" stroke-width="4" />
+  <rect x="30" y="30" width="1540" height="940" fill="none" stroke="#FF3040" stroke-width="1.5" opacity="0.7" />
+
+  <!-- TOP HEADER LABEL -->
+  <g transform="translate(60, 50)">
+    <rect x="0" y="0" width="380" height="40" fill="#FF3040" stroke="#070B14" stroke-width="2" />
+    <text x="190" y="25" font-family="'Courier New', monospace" font-size="16" font-weight="900" fill="#F5F2E8" text-anchor="middle" letter-spacing="3">EARTH-2705 // MULTIVERSE NODE ACTIVE</text>
+  </g>
+
+  <!-- CINEMATIC NEON CITYSCAPE SILHOUETTES (PERSPECTIVE LOOKING DOWN/BETWEEN BUILDINGS) -->
+  <g opacity="0.85">
+    <!-- Far Background Towers -->
+    <polygon points="100,1000 100,450 220,400 280,470 280,1000" fill="#0B1220" />
+    <polygon points="320,1000 320,350 450,300 480,1000" fill="#130D24" />
+    <polygon points="1100,1000 1100,320 1280,380 1320,1000" fill="#0B1220" />
+    <polygon points="1350,1000 1350,420 1480,380 1520,1000" fill="#150E28" />
+
+    <!-- Neon Windows on Far Towers -->
+    <g fill="#20D9FF" opacity="0.6">
+      <rect x="120" y="480" width="8" height="15" />
+      <rect x="140" y="480" width="8" height="15" />
+      <rect x="160" y="480" width="8" height="15" />
+      <rect x="120" y="520" width="8" height="15" />
+      <rect x="160" y="520" width="8" height="15" />
+      
+      <rect x="1140" y="400" width="12" height="6" />
+      <rect x="1160" y="400" width="12" height="6" />
+      <rect x="1140" y="420" width="12" height="6" />
+      <rect x="1160" y="420" width="12" height="6" />
+    </g>
+
+    <g fill="#FF3040" opacity="0.6">
+      <rect x="350" y="380" width="15" height="8" />
+      <rect x="380" y="380" width="15" height="8" />
+      <rect x="350" y="410" width="15" height="8" />
+      <rect x="380" y="410" width="15" height="8" />
+      
+      <rect x="1380" y="460" width="10" height="20" />
+      <rect x="1410" y="460" width="10" height="20" />
+    </g>
+
+    <!-- Foreground Massive Angled Skyscrapers (Framing Center Breathing Space) -->
+    <polygon points="-50,1000 -50,220 220,320 280,1000" fill="url(#buildingGrad1)" stroke="#20D9FF" stroke-width="1.5" />
+    <polygon points="1650,1000 1650,180 1340,300 1300,1000" fill="url(#buildingGrad1)" stroke="#FF3040" stroke-width="1.5" />
+  </g>
+
+  <!-- INTERCONNECTED NEURAL WEB LINES ACROSS SKYLINE -->
+  <g opacity="0.65">
+    <line x1="220" y1="320" x2="1340" y2="300" stroke="#20D9FF" stroke-width="2" stroke-dasharray="6,4" />
+    <line x1="220" y1="320" x2="800" y2="450" stroke="#FF3040" stroke-width="1.5" />
+    <line x1="1340" y1="300" x2="800" y2="450" stroke="#7C3AED" stroke-width="1.5" />
+    <line x1="450" y1="300" x2="1100" y2="320" stroke="#FFD54A" stroke-width="1" />
+  </g>
+
+  <!-- CENTER DYNAMIC TYPOGRAPHY COVER POSTER -->
+  <g transform="translate(800, 440) skewX(-8)">
+    <!-- Cyan Chromatic Aberration Shadow -->
+    <text x="-12" y="-10" font-family="'Impact', 'Arial Black', sans-serif" font-size="145" font-weight="900" letter-spacing="12" text-anchor="middle" fill="#20D9FF" opacity="0.75">ATHARVA</text>
+    <text x="-12" y="130" font-family="'Impact', 'Arial Black', sans-serif" font-size="145" font-weight="900" letter-spacing="12" text-anchor="middle" fill="#20D9FF" opacity="0.75">PATHAK</text>
+
+    <!-- Red Chromatic Aberration Shadow -->
+    <text x="14" y="12" font-family="'Impact', 'Arial Black', sans-serif" font-size="145" font-weight="900" letter-spacing="12" text-anchor="middle" fill="#FF3040">ATHARVA</text>
+    <text x="14" y="152" font-family="'Impact', 'Arial Black', sans-serif" font-size="145" font-weight="900" letter-spacing="12" text-anchor="middle" fill="#FF3040">PATHAK</text>
+
+    <!-- Dark Base Extrusion -->
+    <text x="4" y="4" font-family="'Impact', 'Arial Black', sans-serif" font-size="145" font-weight="900" letter-spacing="12" text-anchor="middle" fill="#070B14">ATHARVA</text>
+    <text x="4" y="144" font-family="'Impact', 'Arial Black', sans-serif" font-size="145" font-weight="900" letter-spacing="12" text-anchor="middle" fill="#070B14">PATHAK</text>
+
+    <!-- Main Off-White Text -->
+    <text x="0" y="0" font-family="'Impact', 'Arial Black', sans-serif" font-size="145" font-weight="900" letter-spacing="12" text-anchor="middle" fill="#F5F2E8">ATHARVA</text>
+    <text x="0" y="140" font-family="'Impact', 'Arial Black', sans-serif" font-size="145" font-weight="900" letter-spacing="12" text-anchor="middle" fill="#F5F2E8">PATHAK</text>
+  </g>
+
+  <!-- SUBTITLE DESIGNATION CARD -->
+  <g transform="translate(800, 680) rotate(-2)">
+    <rect x="-260" y="-35" width="520" height="70" fill="#FFD54A" stroke="#070B14" stroke-width="4" />
+    <text x="0" y="12" font-family="'Impact', 'Arial Narrow', sans-serif" font-size="42" font-weight="900" letter-spacing="6" text-anchor="middle" fill="#070B14">★ AI ENGINEER ★</text>
+  </g>
+
+  <!-- NARRATIVE TAGLINE BANNER BOX -->
+  <g transform="translate(800, 800)">
+    <rect x="-440" y="-45" width="880" height="90" fill="#070B14" stroke="#F5F2E8" stroke-width="3" />
+    <rect x="-432" y="-37" width="864" height="74" fill="none" stroke="#20D9FF" stroke-width="1.5" />
+    <text x="0" y="-8" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#20D9FF" text-anchor="middle" letter-spacing="2">"BUILDING SYSTEMS THAT DON'T JUST ANSWER —"</text>
+    <text x="0" y="22" font-family="'Courier New', monospace" font-size="18" font-weight="900" fill="#F5F2E8" text-anchor="middle" letter-spacing="2">THEY RETRIEVE. REASON. CONNECT. AND ACT.</text>
+  </g>
+
+  <!-- ORIGINAL DYNAMIC SILHOUETTE PROTAGONIST (FALLING DIAGONALLY ACROSS HERO) -->
+  <g transform="translate(1320, 480) rotate(22)">
+    <!-- Motion Vector Streaks -->
+    <line x1="-350" y1="-180" x2="80" y2="80" stroke="#FF3040" stroke-width="3" />
+    <line x1="-350" y1="-180" x2="80" y2="80" stroke="#20D9FF" stroke-width="1.5" stroke-dasharray="8,4" />
+    
+    <!-- Original Polygon Developer Figure (Hoodie, Cyan Glow, Trailing Web Thread) -->
+    <polygon points="80,80 110,50 135,75 105,105" fill="#F5F2E8" />
+    <polygon points="105,105 140,85 155,135 115,145" fill="#070B14" stroke="#20D9FF" stroke-width="2" />
+    <polygon points="115,145 165,195 150,210 100,160" fill="#FF3040" />
+    <polygon points="80,80 25,50 15,65 70,95" fill="#7C3AED" />
+
+    <!-- Trailing Web Strand to Top Portal -->
+    <path d="M 25,50 Q -150,-100 -300,-250" fill="none" stroke="#F5F2E8" stroke-width="2" opacity="0.8" />
+    
+    <!-- Sound Effect Burst -->
+    <text x="140" y="40" font-family="'Impact', sans-serif" font-size="28" fill="#FFD54A" font-weight="900" transform="rotate(-20)">THWIP!</text>
+  </g>
+
+  <!-- SCENE TRANSITION ARROW -->
+  <g transform="translate(800, 930)">
+    <text x="0" y="0" font-family="'Courier New', monospace" font-size="14" font-weight="900" fill="#FF3040" text-anchor="middle" letter-spacing="4">ORIGIN STORY BEGINS ↓</text>
+  </g>
+</svg>

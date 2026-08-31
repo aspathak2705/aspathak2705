@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p3_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B14" />
+      <stop offset="100%" stop-color="#140B1D" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="650" fill="url(#p3_bg)" />
+  <rect x="20" y="20" width="1560" height="610" fill="none" stroke="#F5F2E8" stroke-width="4" />
+
+  <!-- ASYMMETRICAL COMIC PANEL -->
+  <g transform="translate(40, 40)">
+    <polygon points="0,0 1520,0 1460,570 0,570" fill="#070B14" stroke="#7C3AED" stroke-width="5" />
+    <polygon points="10,10 1505,10 1450,560 10,560" fill="none" stroke="#FFD54A" stroke-width="1.5" />
+
+    <!-- TITLE PORTAL BADGE -->
+    <rect x="40" y="35" width="540" height="65" fill="#7C3AED" stroke="#070B14" stroke-width="3" />
+    <text x="65" y="78" font-family="'Impact', sans-serif" font-size="38" font-weight="900" fill="#F5F2E8" letter-spacing="3">UNIVERSE 03 // FORGEMIND</text>
+
+    <!-- UNIVERSE THEME & TAGLINE -->
+    <g transform="translate(40, 115)">
+      <rect x="0" y="0" width="460" height="35" fill="#20D9FF" />
+      <text x="15" y="24" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#070B14">DEVELOPER INTELLIGENCE UNIVERSE</text>
+
+      <rect x="0" y="50" width="750" height="70" fill="#0D111C" stroke="#F5F2E8" stroke-width="2" />
+      <text x="25" y="92" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#FF3040">"EVERY CODEBASE IS A CITY. SOMEONE HAS TO KNOW THE WAY."</text>
+    </g>
+
+    <!-- LEFT SIDE: DESCRIPTION & CONCEPTS -->
+    <g transform="translate(40, 260)">
+      <text x="0" y="25" font-family="'Impact', sans-serif" font-size="22" fill="#7C3AED" letter-spacing="1">MISSION OBJECTIVE &amp; CORE ARCHITECTURE:</text>
+      
+      <text x="0" y="65" font-family="'Courier New', monospace" font-size="15" fill="#F5F2E8">Open Source Maintainer Copilot &amp; Contributor Mentor helping developers parse</text>
+      <text x="0" y="90" font-family="'Courier New', monospace" font-size="15" fill="#F5F2E8">large codebases, triage open issues, and navigate code structures.</text>
+
+      <g transform="translate(0, 120)">
+        <circle cx="15" cy="20" r="5" fill="#7C3AED" />
+        <text x="35" y="25" font-family="'Courier New', monospace" font-size="15" fill="#F5F2E8">Repository Intelligence &amp; Graph Search</text>
+
+        <circle cx="15" cy="50" r="5" fill="#20D9FF" />
+        <text x="35" y="55" font-family="'Courier New', monospace" font-size="15" fill="#F5F2E8">Automated Issue Analysis &amp; Contributor Guidance</text>
+
+        <circle cx="15" cy="80" r="5" fill="#FFD54A" />
+        <text x="35" y="85" font-family="'Courier New', monospace" font-size="15" fill="#F5F2E8">Multi-Agent Codebase Copilot</text>
+      </g>
+    </g>
+
+    <!-- RIGHT SIDE: CODE CITY GRAPH ARTWORK & TECH SIGNALS -->
+    <g transform="translate(850, 115)">
+      <rect x="0" y="0" width="580" height="340" fill="#0D111C" stroke="#FFD54A" stroke-width="2" />
+      
+      <!-- Code Branch Web Overlay -->
+      <g opacity="0.8">
+        <path d="M 60,170 Q 200,60 340,170 T 520,170" fill="none" stroke="#7C3AED" stroke-width="3" />
+        <path d="M 60,170 Q 200,280 340,170 T 520,170" fill="none" stroke="#20D9FF" stroke-width="2" />
+        
+        <circle cx="200" cy="115" r="16" fill="#FF3040" />
+        <circle cx="340" cy="170" r="22" fill="#7C3AED" />
+        <circle cx="460" cy="115" r="16" fill="#FFD54A" />
+
+        <text x="200" y="120" font-family="'Courier New', monospace" font-size="10" fill="#F5F2E8" font-weight="900" text-anchor="middle">PR</text>
+        <text x="340" y="175" font-family="'Courier New', monospace" font-size="11" fill="#F5F2E8" font-weight="900" text-anchor="middle">AGENT</text>
+      </g>
+
+      <!-- Tech Signal Badges -->
+      <g transform="translate(20, 280)">
+        <rect x="0" y="0" width="130" height="35" fill="#070B14" stroke="#7C3AED" stroke-width="1.5" />
+        <text x="65" y="22" font-family="'Courier New', monospace" font-size="13" fill="#7C3AED" text-anchor="middle">MULTI-AGENT</text>
+
+        <rect x="145" y="0" width="120" height="35" fill="#070B14" stroke="#20D9FF" stroke-width="1.5" />
+        <text x="205" y="22" font-family="'Courier New', monospace" font-size="13" fill="#20D9FF" text-anchor="middle">LANGGRAPH</text>
+
+        <rect x="280" y="0" width="120" height="35" fill="#070B14" stroke="#F5F2E8" stroke-width="1.5" />
+        <text x="340" y="22" font-family="'Courier New', monospace" font-size="13" fill="#F5F2E8" text-anchor="middle">GITHUB API</text>
+
+        <rect x="415" y="0" width="110" height="35" fill="#070B14" stroke="#FF3040" stroke-width="1.5" />
+        <text x="470" y="22" font-family="'Courier New', monospace" font-size="13" fill="#FF3040" text-anchor="middle">FASTAPI</text>
+      </g>
+    </g>
+  </g>
+</svg>
