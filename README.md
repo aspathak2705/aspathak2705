@@ -1,23 +1,24 @@
+<!-- SCENE 00: COVER (ANIMATED HERO COVER WITH EMBEDDED OFFICIAL SPIDER-VERSE REFERENCE ARTWORK) -->
 <p align="center">
-  <img src="./assets/hero/atharva-universe.svg" width="100%" alt="Earth-2705: Atharva Pathak - AI Engineer Cover" />
+  <img src="./assets/animation/scene00-cover-hero.svg" width="100%" alt="Earth-2705: Atharva Pathak - AI Engineer Animated Cover" />
 </p>
 
-<!-- SCENE 01: ORIGIN STORY (WITH EMBEDDED OFFICIAL REFERENCE ARTWORK) -->
+<!-- SCENE 01: ORIGIN (WITH EMBEDDED OFFICIAL SPIDER-MAN POSTER REFERENCE ARTWORK & TYPOGRAPHY HIERARCHY) -->
 <p align="center">
   <img src="./assets/scenes/origin.svg" width="100%" alt="Scene 01: Origin Story" />
 </p>
 
-<!-- SCENE 02: CHARACTER DOSSIER (WITH EMBEDDED OFFICIAL REFERENCE ARTWORK) -->
+<!-- SCENE 02: THE BUILDER (WITH EMBEDDED OFFICIAL SPIDER-MAN HOMECOMING REFERENCE ARTWORK & CONCISE DOSSIER) -->
 <p align="center">
-  <img src="./assets/scenes/character-profile.svg" width="100%" alt="Scene 02: Protagonist File Dossier" />
+  <img src="./assets/scenes/character-profile.svg" width="100%" alt="Scene 02: The Builder Dossier" />
 </p>
 
-<!-- SCENE 03: TECH MULTIVERSE MAP -->
+<!-- SCENE 03: THE MULTIVERSE (WITH EMBEDDED OFFICIAL SPIDER-VERSE WALLPAPER REFERENCE & ANIMATED STRANDS) -->
 <p align="center">
   <img src="./assets/scenes/tech-multiverse.svg" width="100%" alt="Scene 03: The Multiverse Tech Map" />
 </p>
 
-<!-- SCENE 04: PROJECT UNIVERSES (PORTALS & ANIMATED VECTOR PULSE) -->
+<!-- SCENE 04: UNIVERSES BUILT (CONCISE PROJECT CARDS & ANIMATED VECTOR PULSE) -->
 <p align="center">
   <img src="./assets/scenes/project-meravyapar.svg" width="100%" alt="Universe 01: MeraVyapar AI" />
 </p>
@@ -34,32 +35,42 @@
   <img src="./assets/scenes/project-autohr.svg" width="100%" alt="Universe 04: AutoHR" />
 </p>
 
-<!-- SCENE 05: AGENTIC AI PHILOSOPHY FLOW (WITH ANIMATED PIPELINE MOTION) -->
+<!-- SCENE 05: HOW THE MIND WORKS (CONCEPTUAL AGENTIC FLOW WITH ANIMATED DASH PIPELINE) -->
 <p align="center">
   <img src="./assets/scenes/agentic-flow.svg" width="100%" alt="Scene 05: How The Mind Works" />
 </p>
 
-<!-- SCENE 06: MISSION CONTROL -->
+<!-- SCENE 06: MISSION CONTROL (CONCISE BUILDING TASKS & TERMINAL) -->
 <p align="center">
   <img src="./assets/scenes/mission-control.svg" width="100%" alt="Scene 06: Mission Control" />
 </p>
 
-<!-- SCENE 07: MULTIVERSE CITY & DISTRICTS (WITH EMBEDDED MUMBATTAN REFERENCE BACKDROP) -->
+<!-- SCENE 07: MULTIVERSE CITY (WITH EMBEDDED OFFICIAL MUMBATTAN REFERENCE BACKDROP) -->
 <p align="center">
   <img src="./assets/scenes/multiverse-city.svg" width="100%" alt="Scene 07: Multiverse City & Districts" />
 </p>
 
-<!-- SCENE 08: GITHUB MULTIVERSE ACTIVITY FOOTPRINTS -->
+<!-- SCENE 08: CLOSING FRAME (WITH EMBEDDED OFFICIAL SPIDER-VERSE SUNSET REFERENCE & MULTIVERSE CONNECT) -->
 <p align="center">
-  <img src="./assets/charts/dimensional-footprints.svg" width="100%" alt="Dimensional Footprints Activity Graph" />
+  <img src="./assets/scenes/final-scene.svg" width="100%" alt="Scene 08: Closing Frame & Multiverse Connect" />
 </p>
 
-<!-- SCENE 09: CITYSCAPE BREATHING BREAK (WITH EMBEDDED SPIDER-VERSE WALLPAPER BACKDROP) -->
+<br />
+
 <p align="center">
-  <img src="./assets/scenes/city-break.svg" width="100%" alt="Scene 09: City Skyline Intermission" />
+  <a href="https://linkedin.com/in/aspathak2705">
+    <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/aspathak2705">
+    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:aspathak2705@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-FF3045?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </p>
 
-<!-- SCENE 10: FINAL POSTER & MULTIVERSE CONNECT -->
 <p align="center">
-  <img src="./assets/scenes/final-scene.svg" width="100%" alt="Scene 10: Final Poster & Connect" />
+  <sub>TO BE CONTINUED... 🕷️</sub>
 </p>

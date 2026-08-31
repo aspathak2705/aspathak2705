@@ -1,91 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 750" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 550" width="100%" height="100%">
   <defs>
-    <linearGradient id="dossierBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080C14" />
-      <stop offset="100%" stop-color="#111728" />
-    </linearGradient>
-
-    <pattern id="halftoneSmall" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#7C4DFF" fill-opacity="0.2" />
-    </pattern>
-
-    <clipPath id="avatarPortalClip">
-      <circle cx="230" cy="220" r="170" />
-    </clipPath>
+    <style>
+      @keyframes activeGlow {
+        0% { stroke-opacity: 0.4; }
+        50% { stroke-opacity: 1; }
+        100% { stroke-opacity: 0.4; }
+      }
+      .anim-glow { animation: activeGlow 3s infinite ease-in-out; }
+    </style>
   </defs>
 
-  <rect width="1600" height="750" fill="url(#dossierBg)" />
-  <rect width="1600" height="750" fill="url(#halftoneSmall)" />
-  <rect x="20" y="20" width="1560" height="710" fill="none" stroke="#F2EEE6" stroke-width="4" />
+  <rect width="1600" height="550" fill="#080C14" />
+  
+  <!-- EMBEDDED OFFICIAL SPIDER-MAN HOMECOMING PNG/SVG REFERENCE ARTWORK -->
+  <g transform="translate(40, 40)" opacity="0.5">
+    <image href="../reference/Spider-Man_ Homecoming Film Series Marvel Cinematic Universe Spider-Man_ Homecoming Film Series Marvel Studios PNG.svg" x="0" y="-60" width="520" height="520" preserveAspectRatio="xMidYMid slice" />
+  </g>
+
+  <rect x="20" y="20" width="1560" height="510" fill="none" stroke="#F2EEE6" stroke-width="4" />
 
   <!-- SECTION HEADER LABEL -->
   <g transform="translate(60, 45)">
-    <rect x="0" y="0" width="280" height="40" fill="#7C4DFF" stroke="#080C14" stroke-width="2" />
-    <text x="140" y="26" font-family="'Courier New', monospace" font-size="16" font-weight="900" fill="#F2EEE6" text-anchor="middle" letter-spacing="3">SCENE 02 // PROTAGONIST FILE</text>
+    <rect x="0" y="0" width="260" height="35" fill="#7C4DFF" stroke="#080C14" stroke-width="2" />
+    <text x="130" y="23" font-family="'Courier New', monospace" font-size="14" font-weight="900" fill="#F2EEE6" text-anchor="middle" letter-spacing="3">SCENE 02 // THE BUILDER</text>
   </g>
 
-  <!-- DOSSIER CARD CONTAINER -->
-  <g transform="translate(60, 110)">
-    <polygon points="0,0 1480,0 1440,580 0,580" fill="#080C14" stroke="#26D9F3" stroke-width="4" />
-    <polygon points="10,10 1465,10 1430,570 10,570" fill="none" stroke="#FF3045" stroke-width="1.5" />
+  <!-- CONCISE BUILDER DOSSIER CARD WITH TIERED TYPOGRAPHY -->
+  <g transform="translate(580, 70)">
+    <rect x="0" y="0" width="940" height="410" fill="#0D1117" stroke="#26D9F3" stroke-width="3" class="anim-glow" />
+    
+    <!-- TIER 1 HERO NAME -->
+    <text x="40" y="55" font-family="'Impact', sans-serif" font-size="38" font-weight="900" fill="#F2EEE6" letter-spacing="3">ATHARVA PATHAK</text>
+    <text x="760" y="50" font-family="'Courier New', monospace" font-size="16" font-weight="900" fill="#FFD34E">[ EARTH-2705 ]</text>
 
-    <!-- LEFT SIDE: OFFICIAL SPIDER-VERSE REFERENCE ARTWORK PORTAL -->
-    <g transform="translate(40, 40)">
-      <rect x="0" y="0" width="460" height="490" fill="#0D1117" stroke="#7C4DFF" stroke-width="3" />
-      
-      <!-- PORTAL BACKDROP & FRAME -->
-      <circle cx="230" cy="220" r="175" fill="none" stroke="#26D9F3" stroke-width="3" stroke-dasharray="8,4" />
-      <circle cx="230" cy="220" r="170" fill="#FF3045" opacity="0.15" />
+    <!-- TIER 2 & TIER 3 ESSENTIAL FIELDS -->
+    <g transform="translate(40, 95)">
+      <!-- Field 1: Role -->
+      <rect x="0" y="0" width="860" height="50" fill="#080C14" stroke="#26D9F3" stroke-width="1.5" />
+      <text x="20" y="32" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#26D9F3">ROLE:</text>
+      <text x="220" y="32" font-family="'Impact', sans-serif" font-size="22" fill="#F2EEE6" letter-spacing="2">AI ENGINEER</text>
 
-      <!-- EMBEDDED REFERENCE ARTWORK SVG IMAGE (ACTUAL VISUAL SOURCE FROM assets/reference/) -->
-      <g clip-path="url(#avatarPortalClip)">
-        <image href="../reference/download (3).svg" x="30" y="20" width="400" height="400" preserveAspectRatio="xMidYMid slice" />
-      </g>
+      <!-- Field 2: Focus -->
+      <rect x="0" y="65" width="860" height="50" fill="#080C14" stroke="#7C4DFF" stroke-width="1.5" />
+      <text x="20" y="97" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#7C4DFF">FOCUS:</text>
+      <text x="220" y="97" font-family="'Courier New', monospace" font-size="15" font-weight="700" fill="#FFD34E">LLMs · RAG · AGENTIC SYSTEMS · LANGGRAPH</text>
 
-      <rect x="30" y="430" width="400" height="40" fill="#080C14" stroke="#FFD34E" stroke-width="2" />
-      <text x="230" y="456" font-family="'Courier New', monospace" font-size="14" font-weight="900" fill="#FFD34E" text-anchor="middle">CLEARANCE LEVEL: AGENTIC MULTIVERSE</text>
+      <!-- Field 3: Currently -->
+      <rect x="0" y="130" width="860" height="50" fill="#080C14" stroke="#FFD34E" stroke-width="1.5" />
+      <text x="20" y="162" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#FFD34E">CURRENTLY:</text>
+      <text x="220" y="162" font-family="'Courier New', monospace" font-size="15" font-weight="700" fill="#FF3045">BUILDING INTELLIGENT SYSTEMS THAT REASON BEYOND PROMPTS</text>
+
+      <!-- TIER 4 READABLE BODY QUOTE -->
+      <rect x="0" y="195" width="860" height="75" fill="#080C14" stroke="#F2EEE6" stroke-width="1.5" />
+      <text x="20" y="225" font-family="'Courier New', monospace" font-size="14" fill="#F2EEE6">"Designing multi-agent workflows that retain long-term memory, reason over complex evidence, and safely execute real-world actions."</text>
     </g>
 
-    <!-- RIGHT SIDE: CHARACTER DOSSIER SPECIFICATIONS WITH TIERED TYPOGRAPHY -->
-    <g transform="translate(540, 40)">
-      <!-- Name Header (Tier 1 Display) -->
-      <rect x="0" y="0" width="880" height="70" fill="#FF3045" stroke="#080C14" stroke-width="3" />
-      <text x="30" y="48" font-family="'Impact', sans-serif" font-size="36" font-weight="900" fill="#F2EEE6" letter-spacing="3">ATHARVA PATHAK</text>
-      <text x="700" y="45" font-family="'Courier New', monospace" font-size="18" font-weight="900" fill="#FFD34E">[ EARTH-2705 ]</text>
-
-      <!-- Spec Field 1: Role (Tier 2 & Tier 3) -->
-      <g transform="translate(0, 90)">
-        <rect x="0" y="0" width="880" height="55" fill="#0D1117" stroke="#26D9F3" stroke-width="2" />
-        <text x="25" y="35" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#26D9F3">DESIGNATION / ROLE:</text>
-        <text x="240" y="35" font-family="'Impact', sans-serif" font-size="22" fill="#F2EEE6" letter-spacing="2">AI ENGINEER</text>
-      </g>
-
-      <!-- Spec Field 2: Specialization -->
-      <g transform="translate(0, 160)">
-        <rect x="0" y="0" width="880" height="55" fill="#0D1117" stroke="#7C4DFF" stroke-width="2" />
-        <text x="25" y="35" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#7C4DFF">SPECIALIZATION:</text>
-        <text x="240" y="35" font-family="'Courier New', monospace" font-size="15" font-weight="700" fill="#FFD34E">LLMs • RAG • AGENTIC AI SYSTEMS • LANGGRAPH</text>
-      </g>
-
-      <!-- Spec Field 3: Status -->
-      <g transform="translate(0, 230)">
-        <rect x="0" y="0" width="880" height="55" fill="#0D1117" stroke="#FFD34E" stroke-width="2" />
-        <text x="25" y="35" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#FFD34E">DEPLOYMENT STATUS:</text>
-        <text x="240" y="35" font-family="'Courier New', monospace" font-size="15" font-weight="700" fill="#FF3045">BUILDING INTELLIGENT SYSTEMS IN PRODUCTION</text>
-      </g>
-
-      <!-- Spec Field 4: Current Obsession (Tier 4 Readable Body Text) -->
-      <g transform="translate(0, 300)">
-        <rect x="0" y="0" width="880" height="90" fill="#0D1117" stroke="#F2EEE6" stroke-width="2" />
-        <text x="25" y="35" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#F2EEE6">CURRENT OBSESSION:</text>
-        <text x="25" y="65" font-family="'Courier New', monospace" font-size="14" fill="#26D9F3">"Designing multi-agent systems that retain long-term memory, reason over complex evidence, and safely act."</text>
-      </g>
-
-      <!-- Glitch Annotation Line -->
-      <g transform="translate(0, 415)">
-        <rect x="0" y="0" width="880" height="40" fill="#7C3AED" opacity="0.2" stroke="#7C3AED" stroke-width="1" />
-        <text x="20" y="26" font-family="'Courier New', monospace" font-size="14" fill="#F2EEE6" font-style="italic">// MULTIVERSE IDENTIFIER: aspathak2705 • ALL SYSTEMS OPERATIONAL</text>
-      </g>
-    </g>
+    <text x="40" y="385" font-family="'Courier New', monospace" font-size="13" fill="#8B949E" font-style="italic">// MULTIVERSE IDENTIFIER: aspathak2705 • ALL SYSTEMS OPERATIONAL</text>
   </g>
 </svg>

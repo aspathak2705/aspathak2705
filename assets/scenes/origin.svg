@@ -1,97 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 750" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" width="100%" height="100%">
   <defs>
-    <linearGradient id="c01_bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080C14" />
-      <stop offset="100%" stop-color="#140B1D" />
-    </linearGradient>
-
-    <pattern id="c01_dots" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.2" fill="#26D9F3" fill-opacity="0.15" />
-      <circle cx="7" cy="7" r="1.2" fill="#FF3045" fill-opacity="0.15" />
-    </pattern>
-
-    <clipPath id="originArtClip">
-      <polygon points="10,10 1465,10 1430,370 10,370" />
-    </clipPath>
+    <style>
+      @keyframes dashAnim {
+        to { stroke-dashoffset: -50; }
+      }
+      .anim-dash {
+        stroke-dasharray: 12, 6;
+        animation: dashAnim 2.5s linear infinite;
+      }
+    </style>
   </defs>
 
-  <rect width="1600" height="750" fill="url(#c01_bg)" />
-  <rect width="1600" height="750" fill="url(#c01_dots)" />
-  <rect x="20" y="20" width="1560" height="710" fill="none" stroke="#F2EEE6" stroke-width="4" />
+  <rect width="1600" height="650" fill="#080C14" />
+  
+  <!-- EMBEDDED OFFICIAL SPIDER-MAN POSTER REFERENCE ARTWORK -->
+  <g transform="translate(40, 40)" opacity="0.45">
+    <image href="../reference/Spider Man Into The Spider Verse Poster.svg" x="0" y="-80" width="600" height="650" preserveAspectRatio="xMidYMid slice" />
+  </g>
+
+  <rect x="20" y="20" width="1560" height="610" fill="none" stroke="#F2EEE6" stroke-width="4" />
 
   <!-- SECTION HEADER LABEL -->
   <g transform="translate(60, 45)">
-    <rect x="0" y="0" width="260" height="40" fill="#FF3045" stroke="#080C14" stroke-width="2" />
-    <text x="130" y="26" font-family="'Courier New', monospace" font-size="16" font-weight="900" fill="#F2EEE6" text-anchor="middle" letter-spacing="3">SCENE 01 // ORIGIN STORY</text>
+    <rect x="0" y="0" width="240" height="35" fill="#FF3045" stroke="#080C14" stroke-width="2" />
+    <text x="120" y="23" font-family="'Courier New', monospace" font-size="14" font-weight="900" fill="#F2EEE6" text-anchor="middle" letter-spacing="3">SCENE 01 // ORIGIN</text>
   </g>
 
-  <!-- PANEL 1: ORIGIN CAPTION BOX (Top Left Panel) -->
-  <g transform="translate(60, 110)">
-    <polygon points="0,0 720,0 670,260 0,260" fill="#080C14" stroke="#F2EEE6" stroke-width="4" />
-    <rect x="30" y="30" width="460" height="50" fill="#FFD34E" stroke="#080C14" stroke-width="3" />
-    <text x="45" y="62" font-family="'Impact', sans-serif" font-size="22" font-weight="900" fill="#080C14" letter-spacing="1">"EVERY UNIVERSE HAS SOMEONE WHO..."</text>
-    
-    <text x="40" y="125" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#F2EEE6">"...starts by asking too many questions.</text>
-    <text x="40" y="160" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#26D9F3">Why generate static answers when machines</text>
-    <text x="40" y="195" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#FF3045">can retrieve, reason, and act?"</text>
-  </g>
+  <!-- ANIMATED CONNECTOR LINE TO RIGHT NARRATIVE -->
+  <line x1="640" y1="320" x2="720" y2="320" stroke="#26D9F3" stroke-width="3" class="anim-dash" />
 
-  <!-- PANEL 2: THOUGHT BUBBLE PANEL (Top Right Panel) -->
-  <g transform="translate(800, 100)">
-    <polygon points="40,0 740,0 740,270 0,270" fill="#080C14" stroke="#26D9F3" stroke-width="4" />
+  <!-- RIGHT NARRATIVE CARD WITH TIERED TYPOGRAPHY -->
+  <g transform="translate(720, 100)">
+    <rect x="0" y="0" width="820" height="450" fill="#0D1117" stroke="#26D9F3" stroke-width="3" />
     
-    <g transform="translate(370, 130)">
-      <path d="M -220,-20 Q -240,-80 -160,-90 Q -100,-130 0,-90 Q 80,-130 160,-80 Q 240,-70 200,0 Q 240,70 160,80 Q 80,120 0,80 Q -100,120 -160,70 Q -240,60 -220,-20 Z" 
-            fill="#F2EEE6" stroke="#080C14" stroke-width="4" />
-      <text x="0" y="-20" font-family="'Impact', sans-serif" font-size="24" font-weight="900" fill="#080C14" text-anchor="middle">WHAT IF MACHINES COULD</text>
-      <text x="0" y="15" font-family="'Impact', sans-serif" font-size="24" font-weight="900" fill="#FF3045" text-anchor="middle">UNDERSTAND CONTEXT &amp; ACT?</text>
-    </g>
-    <circle cx="270" cy="220" r="12" fill="#F2EEE6" stroke="#080C14" stroke-width="2.5" />
-    <circle cx="220" cy="240" r="7" fill="#F2EEE6" stroke="#080C14" stroke-width="2" />
-  </g>
+    <!-- TIER 2 SCENE TITLE -->
+    <text x="40" y="60" font-family="'Courier New', monospace" font-size="20" font-weight="900" fill="#FFD34E" letter-spacing="2">EVERY UNIVERSE STARTS WITH CURIOSITY.</text>
 
-  <!-- PANEL 3: BOTTOM FULL WIDE ARTWORK & SEQUENCE PANEL (WITH EMBEDDED REFERENCE ARTWORK) -->
-  <g transform="translate(60, 400)">
-    <polygon points="0,0 1480,0 1440,320 0,320" fill="#080C14" stroke="#F2EEE6" stroke-width="4" />
-    
-    <!-- EMBEDDED OFFICIAL SPIDER-VERSE REFERENCE ARTWORK -->
-    <g clip-path="url(#originArtClip)" opacity="0.4">
-      <image href="../reference/download (4).svg" x="0" y="-100" width="1480" height="500" preserveAspectRatio="xMidYMid slice" />
+    <!-- TIER 4 READABLE BODY PARAGRAPH -->
+    <g font-family="'Courier New', monospace" font-size="16" fill="#F2EEE6">
+      <text x="40" y="130">Mine became a central question:</text>
+      <text x="40" y="180" font-weight="700" fill="#26D9F3">"What if machines could retrieve knowledge, reason over context,</text>
+      <text x="40" y="210" font-weight="700" fill="#FF3045">and safely act in real-world workflows?"</text>
+      
+      <text x="40" y="290" fill="#8B949E">// From curiosity to production AI engineering</text>
+      <text x="40" y="320" fill="#8B949E">// LLMs • RAG • LangGraph • Agentic Multi-Agent Systems</text>
     </g>
 
-    <polygon points="10,10 1465,10 1430,310 10,310" fill="none" stroke="#7C4DFF" stroke-width="2" />
-
-    <!-- Sequence Question Cards -->
-    <g transform="translate(60, 30)">
-      <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="620" height="60" fill="#080C14" stroke="#FF3045" stroke-width="2" opacity="0.95" />
-        <text x="20" y="26" font-family="'Impact', sans-serif" font-size="20" fill="#FF3045">01 // HOW DO MACHINES LEARN?</text>
-        <text x="20" y="48" font-family="'Courier New', monospace" font-size="13" fill="#F2EEE6">From pattern matching to dense embeddings</text>
-      </g>
-
-      <g transform="translate(680, 0)">
-        <rect x="0" y="0" width="620" height="60" fill="#080C14" stroke="#26D9F3" stroke-width="2" opacity="0.95" />
-        <text x="20" y="26" font-family="'Impact', sans-serif" font-size="20" fill="#26D9F3">02 // HOW DO SYSTEMS REMEMBER?</text>
-        <text x="20" y="48" font-family="'Courier New', monospace" font-size="13" fill="#F2EEE6">Vector search, state checkpoints &amp; RAG</text>
-      </g>
-
-      <g transform="translate(0, 80)">
-        <rect x="0" y="0" width="620" height="60" fill="#080C14" stroke="#7C4DFF" stroke-width="2" opacity="0.95" />
-        <text x="20" y="26" font-family="'Impact', sans-serif" font-size="20" fill="#7C4DFF">03 // HOW DO AGENTS REASON?</text>
-        <text x="20" y="48" font-family="'Courier New', monospace" font-size="13" fill="#F2EEE6">Multi-agent orchestration &amp; execution graphs</text>
-      </g>
-
-      <g transform="translate(680, 80)">
-        <rect x="0" y="0" width="620" height="60" fill="#080C14" stroke="#FFD34E" stroke-width="2" opacity="0.95" />
-        <text x="20" y="26" font-family="'Impact', sans-serif" font-size="20" fill="#FFD34E">04 // HOW DO AGENTS ACT?</text>
-        <text x="20" y="48" font-family="'Courier New', monospace" font-size="13" fill="#F2EEE6">Real-world API integrations &amp; automated workflows</text>
-      </g>
-
-      <!-- Closing Narrative Banner -->
-      <g transform="translate(0, 160)">
-        <rect x="0" y="0" width="1300" height="50" fill="#FF3045" stroke="#080C14" stroke-width="2" />
-        <text x="650" y="32" font-family="'Impact', sans-serif" font-size="22" fill="#F2EEE6" text-anchor="middle" letter-spacing="2">"NOT ALL HEROES WEAR CAPES. SOME SHIP PRODUCTION AI SYSTEMS."</text>
-      </g>
-    </g>
+    <!-- PUNCHLINE TAG -->
+    <rect x="40" y="370" width="740" height="45" fill="#FF3045" stroke="#080C14" stroke-width="2" />
+    <text x="410" y="398" font-family="'Impact', sans-serif" font-size="20" fill="#F2EEE6" text-anchor="middle" letter-spacing="2">"NOT ALL HEROES WEAR CAPES. SOME SHIP PRODUCTION AI SYSTEMS."</text>
   </g>
 </svg>
