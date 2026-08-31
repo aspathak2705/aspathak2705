@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 850" width="100%" height="100%">
+  <defs>
+    <linearGradient id="c01_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090B10" />
+      <stop offset="60%" stop-color="#0F1420" />
+      <stop offset="100%" stop-color="#090B10" />
+    </linearGradient>
+
+    <pattern id="c01_halftone" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#F02B35" fill-opacity="0.18" />
+      <circle cx="8" cy="8" r="1.5" fill="#20D9FF" fill-opacity="0.15" />
+    </pattern>
+
+    <pattern id="c01_dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#F5F1E8" fill-opacity="0.1" />
+    </pattern>
+  </defs>
+
+  <!-- Canvas Base -->
+  <rect width="1600" height="850" fill="url(#c01_bg)" />
+  <rect width="1600" height="850" fill="url(#c01_halftone)" />
+  <rect width="1600" height="850" fill="url(#c01_dots)" />
+
+  <!-- Outer Comic Book Frame -->
+  <rect x="25" y="25" width="1550" height="800" fill="none" stroke="#F5F1E8" stroke-width="4" stroke-opacity="0.9" />
+  <rect x="35" y="35" width="1530" height="780" fill="none" stroke="#F02B35" stroke-width="1.5" stroke-opacity="0.6" />
+
+  <!-- Comic Issue Header Box -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="340" height="70" fill="#F02B35" stroke="#090B10" stroke-width="3" />
+    <text x="15" y="28" font-family="'Courier New', monospace" font-size="14" font-weight="900" fill="#F5F1E8" letter-spacing="2">EARTH-AI-2705 • ISSUE #01</text>
+    <text x="15" y="52" font-family="'Impact', 'Arial Black', sans-serif" font-size="22" font-weight="900" fill="#FFD23F" letter-spacing="3">THE ORIGIN OF AN AI ENGINEER</text>
+  </g>
+
+  <g transform="translate(1220, 60)">
+    <rect x="0" y="0" width="320" height="50" fill="#090B10" stroke="#20D9FF" stroke-width="2" />
+    <text x="160" y="32" font-family="'Courier New', monospace" font-size="14" font-weight="700" fill="#20D9FF" text-anchor="middle" letter-spacing="3">[ MULTIVERSE NODE: ACTIVE ]</text>
+  </g>
+
+  <!-- Speed Lines & Dynamic Diagonal Geometry -->
+  <g opacity="0.4">
+    <polygon points="-100,0 200,0 700,850 400,850" fill="#7B2CFF" opacity="0.1" />
+    <line x1="0" y1="120" x2="1600" y2="720" stroke="#F02B35" stroke-width="2" stroke-dasharray="12,6" />
+    <line x1="0" y1="180" x2="1600" y2="780" stroke="#20D9FF" stroke-width="1" />
+    <line x1="200" y1="0" x2="1600" y2="520" stroke="#FFD23F" stroke-width="0.8" stroke-dasharray="4,4" />
+  </g>
+
+  <!-- Main Title Block: ATHARVA PATHAK -->
+  <g transform="translate(800, 360) skewX(-10)">
+    <!-- Red Offset Misregistration Shadow -->
+    <text x="12" y="12" font-family="'Impact', 'Arial Black', sans-serif" font-size="140" font-weight="900" letter-spacing="10" text-anchor="middle" fill="#F02B35">ATHARVA</text>
+    <text x="12" y="132" font-family="'Impact', 'Arial Black', sans-serif" font-size="140" font-weight="900" letter-spacing="10" text-anchor="middle" fill="#F02B35">PATHAK</text>
+
+    <!-- Cyan Offset Misregistration Shadow -->
+    <text x="-8" y="-6" font-family="'Impact', 'Arial Black', sans-serif" font-size="140" font-weight="900" letter-spacing="10" text-anchor="middle" fill="#20D9FF" opacity="0.8">ATHARVA</text>
+    <text x="-8" y="114" font-family="'Impact', 'Arial Black', sans-serif" font-size="140" font-weight="900" letter-spacing="10" text-anchor="middle" fill="#20D9FF" opacity="0.8">PATHAK</text>
+
+    <!-- Black Base Extrusion -->
+    <text x="4" y="4" font-family="'Impact', 'Arial Black', sans-serif" font-size="140" font-weight="900" letter-spacing="10" text-anchor="middle" fill="#090B10">ATHARVA</text>
+    <text x="4" y="124" font-family="'Impact', 'Arial Black', sans-serif" font-size="140" font-weight="900" letter-spacing="10" text-anchor="middle" fill="#090B10">PATHAK</text>
+
+    <!-- Top Off-White Main Fill -->
+    <text x="0" y="0" font-family="'Impact', 'Arial Black', sans-serif" font-size="140" font-weight="900" letter-spacing="10" text-anchor="middle" fill="#F5F1E8">ATHARVA</text>
+    <text x="0" y="120" font-family="'Impact', 'Arial Black', sans-serif" font-size="140" font-weight="900" letter-spacing="10" text-anchor="middle" fill="#F5F1E8">PATHAK</text>
+  </g>
+
+  <!-- Comic Subtitle Badge -->
+  <g transform="translate(800, 560) rotate(-2)">
+    <rect x="-240" y="-30" width="480" height="60" fill="#FFD23F" stroke="#090B10" stroke-width="4" />
+    <text x="0" y="10" font-family="'Impact', 'Arial Narrow', sans-serif" font-size="40" font-weight="900" letter-spacing="6" text-anchor="middle" fill="#090B10">★ AI ENGINEER ★</text>
+  </g>
+
+  <!-- Storyline Caption Banner Box -->
+  <g transform="translate(800, 680)">
+    <rect x="-380" y="-45" width="760" height="90" fill="#090B10" stroke="#F5F1E8" stroke-width="3" />
+    <rect x="-372" y="-37" width="744" height="74" fill="none" stroke="#F02B35" stroke-width="1.5" />
+    <text x="0" y="-10" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#20D9FF" text-anchor="middle" letter-spacing="2">"BUILDING SYSTEMS THAT DON'T JUST ANSWER.</text>
+    <text x="0" y="18" font-family="'Courier New', monospace" font-size="18" font-weight="900" fill="#F5F1E8" text-anchor="middle" letter-spacing="2">THEY REASON. RETRIEVE. CONNECT. AND ACT."</text>
+  </g>
+
+  <!-- Abstract Silhouette Figure (Acrobat Traversing Web Threads) -->
+  <g transform="translate(1360, 260) rotate(15)">
+    <!-- Web Line -->
+    <line x1="-400" y1="-150" x2="80" y2="100" stroke="#F5F1E8" stroke-width="2" opacity="0.8" />
+    <line x1="-400" y1="-150" x2="80" y2="100" stroke="#20D9FF" stroke-width="4" opacity="0.3" />
+    <!-- Polygon Geometric Hero Acrobat -->
+    <polygon points="80,100 110,70 130,95 100,120" fill="#F02B35" />
+    <polygon points="100,120 135,105 150,150 115,160" fill="#090B10" stroke="#20D9FF" stroke-width="2" />
+    <polygon points="115,160 160,210 145,225 100,175" fill="#F02B35" />
+    <polygon points="80,100 30,70 20,85 70,115" fill="#20D9FF" />
+    <!-- Action Burst -->
+    <text x="140" y="60" font-family="'Impact', sans-serif" font-size="28" fill="#FFD23F" font-weight="900" transform="rotate(-15)">THWIP!</text>
+  </g>
+
+  <!-- Bottom Transition Exit Web Thread (Leading to Scene 02) -->
+  <path d="M 1480,360 Q 1520,600 1320,850" fill="none" stroke="#20D9FF" stroke-width="3" stroke-dasharray="8,4" />
+  <path d="M 100,750 Q 200,800 350,850" fill="none" stroke="#F02B35" stroke-width="2" />
+</svg>

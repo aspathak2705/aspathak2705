@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="c06_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090B10" />
+      <stop offset="100%" stop-color="#140B18" />
+    </linearGradient>
+
+    <pattern id="c06_glitchDots" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#F02B35" fill-opacity="0.2" />
+      <circle cx="7" cy="7" r="1.2" fill="#7B2CFF" fill-opacity="0.2" />
+    </pattern>
+  </defs>
+
+  <!-- Canvas Base -->
+  <rect width="1600" height="700" fill="url(#c06_bg)" />
+  <rect width="1600" height="700" fill="url(#c06_glitchDots)" />
+
+  <!-- Outer Frame -->
+  <rect x="25" y="25" width="1550" height="650" fill="none" stroke="#F5F1E8" stroke-width="4" />
+
+  <!-- TOP INCIDENT REPORT HEADER -->
+  <g transform="translate(60, 50)">
+    <rect x="0" y="0" width="420" height="45" fill="#F02B35" stroke="#090B10" stroke-width="2" />
+    <text x="210" y="28" font-family="'Courier New', monospace" font-size="18" font-weight="900" fill="#F5F1E8" text-anchor="middle" letter-spacing="3">⚠ INCIDENT REPORT #2705 // ORIGIN</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- SEQUENTIAL GLITCH INCIDENT PANELS -->
+  <!-- ========================================================= -->
+
+  <!-- STEP 1: CURIOSITY DETECTED -->
+  <g transform="translate(60, 130)">
+    <polygon points="0,0 340,0 320,380 0,380" fill="#090B10" stroke="#20D9FF" stroke-width="3" />
+    
+    <rect x="20" y="20" width="280" height="40" fill="#20D9FF" />
+    <text x="160" y="46" font-family="'Courier New', monospace" font-size="14" font-weight="900" fill="#090B10" text-anchor="middle">[ STEP 01 ]</text>
+    
+    <text x="30" y="110" font-family="'Impact', sans-serif" font-size="26" fill="#F5F1E8">CURIOSITY</text>
+    <text x="30" y="145" font-family="'Impact', sans-serif" font-size="26" fill="#20D9FF">DETECTED</text>
+
+    <text x="30" y="210" font-family="'Courier New', monospace" font-size="14" fill="#8B949E">An anomaly in the pattern.</text>
+    <text x="30" y="235" font-family="'Courier New', monospace" font-size="14" fill="#8B949E">Subject started asking how</text>
+    <text x="30" y="260" font-family="'Courier New', monospace" font-size="14" fill="#8B949E">machines process logic.</text>
+
+    <!-- Glitch bar -->
+    <rect x="20" y="320" width="260" height="15" fill="#F02B35" opacity="0.4" />
+  </g>
+
+  <!-- STEP 2: TOO MANY IDEAS -->
+  <g transform="translate(420, 130)">
+    <polygon points="20,0 360,0 340,380 0,380" fill="#090B10" stroke="#FFD23F" stroke-width="3" />
+    
+    <rect x="40" y="20" width="280" height="40" fill="#FFD23F" />
+    <text x="180" y="46" font-family="'Courier New', monospace" font-size="14" font-weight="900" fill="#090B10" text-anchor="middle">[ STEP 02 ]</text>
+    
+    <text x="50" y="110" font-family="'Impact', sans-serif" font-size="26" fill="#F5F1E8">OVERFLOW OF</text>
+    <text x="50" y="145" font-family="'Impact', sans-serif" font-size="26" fill="#FFD23F">IDEAS</text>
+
+    <text x="50" y="210" font-family="'Courier New', monospace" font-size="14" fill="#8B949E">Brain graph expanded.</text>
+    <text x="50" y="235" font-family="'Courier New', monospace" font-size="14" fill="#8B949E">Too many architectures</text>
+    <text x="50" y="260" font-family="'Courier New', monospace" font-size="14" fill="#8B949E">to test at once.</text>
+
+    <rect x="40" y="320" width="260" height="15" fill="#7B2CFF" opacity="0.4" />
+  </g>
+
+  <!-- STEP 3: DISCOVERED AI -->
+  <g transform="translate(800, 130)">
+    <polygon points="20,0 360,0 340,380 0,380" fill="#090B10" stroke="#7B2CFF" stroke-width="3" />
+    
+    <rect x="40" y="20" width="280" height="40" fill="#7B2CFF" />
+    <text x="180" y="46" font-family="'Courier New', monospace" font-size="14" font-weight="900" fill="#F5F1E8" text-anchor="middle">[ STEP 03 ]</text>
+    
+    <text x="50" y="110" font-family="'Impact', sans-serif" font-size="26" fill="#F5F1E8">OPENED FIRST</text>
+    <text x="50" y="145" font-family="'Impact', sans-serif" font-size="26" fill="#7B2CFF">PYTHON FILE</text>
+
+    <text x="50" y="210" font-family="'Courier New', monospace" font-size="14" fill="#8B949E">First script executed.</text>
+    <text x="50" y="235" font-family="'Courier New', monospace" font-size="14" fill="#8B949E">Discovered LLMs &amp; RAG.</text>
+    <text x="50" y="260" font-family="'Courier New', monospace" font-size="14" fill="#8B949E">No turning back.</text>
+
+    <rect x="40" y="320" width="260" height="15" fill="#20D9FF" opacity="0.4" />
+  </g>
+
+  <!-- STEP 4: PERMANENTLY INFECTED -->
+  <g transform="translate(1180, 130)">
+    <polygon points="20,0 340,0 340,380 0,380" fill="#090B10" stroke="#F02B35" stroke-width="4" />
+    
+    <rect x="30" y="20" width="280" height="40" fill="#F02B35" />
+    <text x="170" y="46" font-family="'Courier New', monospace" font-size="14" font-weight="900" fill="#F5F1E8" text-anchor="middle">[ SYSTEM STATUS ]</text>
+    
+    <text x="40" y="110" font-family="'Impact', sans-serif" font-size="24" fill="#F02B35">PERMANENTLY</text>
+    <text x="40" y="145" font-family="'Impact', sans-serif" font-size="24" fill="#F5F1E8">INFECTED</text>
+
+    <text x="40" y="210" font-family="'Courier New', monospace" font-size="14" fill="#FFD23F" font-weight="700">Diagnosis: AI Engineering.</text>
+    <text x="40" y="235" font-family="'Courier New', monospace" font-size="14" fill="#8B949E">Building systems that</text>
+    <text x="40" y="260" font-family="'Courier New', monospace" font-size="14" fill="#8B949E">reason &amp; act daily.</text>
+
+    <rect x="30" y="320" width="270" height="15" fill="#F02B35" />
+  </g>
+
+  <!-- HUMOROUS ANNOTATION AT BOTTOM -->
+  <g transform="translate(800, 580)">
+    <rect x="-320" y="-25" width="640" height="50" fill="#090B10" stroke="#FFD23F" stroke-width="2" />
+    <text x="0" y="7" font-family="'Courier New', monospace" font-size="15" fill="#FFD23F" text-anchor="middle">"No radioactive spiders. Mostly Python dependency conflicts."</text>
+  </g>
+</svg>
