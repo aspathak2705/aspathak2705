@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 240" width="100%" height="100%">
+  <defs>
+    <!-- Text Extrusion Shadow Filter -->
+    <filter id="shadow" x="-5%" y="-5%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="0" flood-color="#07090F" />
+      <feDropShadow dx="4" dy="10" stdDeviation="0" flood-color="#9D0B0E" />
+    </filter>
+    
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#F5F7FA" />
+      <stop offset="100%" stop-color="#D0D7DE" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Background (Transparent) -->
+  <g transform="skewX(-6)">
+    <!-- Base Extrusion Backdrop Layer 1 -->
+    <text x="806" y="166" 
+          font-family="Impact, 'Arial Black', sans-serif" 
+          font-size="124" 
+          font-weight="900" 
+          letter-spacing="12" 
+          text-anchor="middle" 
+          fill="#07090F">
+      ATHARVA PATHAK
+    </text>
+
+    <!-- Base Extrusion Layer 2 (Crimson Offset) -->
+    <text x="803" y="163" 
+          font-family="Impact, 'Arial Black', sans-serif" 
+          font-size="124" 
+          font-weight="900" 
+          letter-spacing="12" 
+          text-anchor="middle" 
+          fill="#9D0B0E">
+      ATHARVA PATHAK
+    </text>
+
+    <!-- Outer Red Edge Outline Stroke Layer -->
+    <text x="800" y="160" 
+          font-family="Impact, 'Arial Black', sans-serif" 
+          font-size="124" 
+          font-weight="900" 
+          letter-spacing="12" 
+          text-anchor="middle" 
+          fill="none" 
+          stroke="#E62429" 
+          stroke-width="12" 
+          stroke-linejoin="miter">
+      ATHARVA PATHAK
+    </text>
+
+    <!-- Primary Letter Fill Layer -->
+    <text x="800" y="160" 
+          font-family="Impact, 'Arial Black', sans-serif" 
+          font-size="124" 
+          font-weight="900" 
+          letter-spacing="12" 
+          text-anchor="middle" 
+          fill="url(#textGrad)">
+      ATHARVA PATHAK
+    </text>
+
+    <!-- Subtle Cyan Edge Highlight Stroke -->
+    <text x="798" y="158" 
+          font-family="Impact, 'Arial Black', sans-serif" 
+          font-size="124" 
+          font-weight="900" 
+          letter-spacing="12" 
+          text-anchor="middle" 
+          fill="none" 
+          stroke="#00A8E8" 
+          stroke-width="1.5" 
+          opacity="0.8">
+      ATHARVA PATHAK
+    </text>
+  </g>
+</svg>
