@@ -4,6 +4,18 @@
       <stop offset="0%" stop-color="#080C14" />
       <stop offset="100%" stop-color="#190C1A" />
     </linearGradient>
+
+    <!-- ANIMATED VECTOR PULSE FOR RAG RETRIEVAL NODE -->
+    <style>
+      @keyframes ragPulse {
+        0% { r: 28px; opacity: 0.8; }
+        50% { r: 36px; opacity: 0.3; }
+        100% { r: 28px; opacity: 0.8; }
+      }
+      .pulse-ring {
+        animation: ragPulse 3s infinite ease-in-out;
+      }
+    </style>
   </defs>
 
   <rect width="1600" height="650" fill="url(#p1_bg)" />
@@ -12,7 +24,7 @@
   <!-- ASYMMETRICAL COMIC PROJECT PANEL FRAME -->
   <g transform="translate(40, 40)">
     <polygon points="0,0 1520,0 1470,570 0,570" fill="#080C14" stroke="#FF3045" stroke-width="5" />
-    <polygon points="10,10 1505,10 1460,560 10,560" fill="none" stroke="#20D9F3" stroke-width="1.5" />
+    <polygon points="10,10 1505,10 1460,560 10,560" fill="none" stroke="#26D9F3" stroke-width="1.5" />
 
     <!-- LEVEL 1 HERO TITLE BADGE -->
     <rect x="40" y="30" width="580" height="60" fill="#FF3045" stroke="#080C14" stroke-width="3" />
@@ -24,7 +36,7 @@
       <text x="15" y="20" font-family="'Courier New', monospace" font-size="13" font-weight="900" fill="#080C14">FINANCIAL INTELLIGENCE UNIVERSE</text>
 
       <rect x="0" y="45" width="760" height="55" fill="#0D1117" stroke="#F2EEE6" stroke-width="1.5" />
-      <text x="20" y="80" font-family="'Courier New', monospace" font-size="16" font-weight="700" fill="#20D9F3">"WHEN MONEY LEAVES CLUES, INTELLIGENT SYSTEMS SHOULD SEE THEM."</text>
+      <text x="20" y="80" font-family="'Courier New', monospace" font-size="16" font-weight="700" fill="#26D9F3">"WHEN MONEY LEAVES CLUES, INTELLIGENT SYSTEMS SHOULD SEE THEM."</text>
     </g>
 
     <!-- LEVEL 2 SECTION HEADING & LEVEL 3 BODY TEXT -->
@@ -38,7 +50,7 @@
         <circle cx="12" cy="15" r="4" fill="#FF3045" />
         <text x="30" y="20" font-family="'Courier New', monospace" font-size="14" fill="#F2EEE6">Financial Intelligence Graph &amp; Transaction Evidence</text>
 
-        <circle cx="12" cy="45" r="4" fill="#20D9F3" />
+        <circle cx="12" cy="45" r="4" fill="#26D9F3" />
         <text x="30" y="50" font-family="'Courier New', monospace" font-size="14" fill="#F2EEE6">Receivables Prioritization &amp; Payment Promise Tracking</text>
 
         <circle cx="12" cy="75" r="4" fill="#7C4DFF" />
@@ -46,18 +58,18 @@
       </g>
     </g>
 
-    <!-- RIGHT SIDE: ARCHITECTURE VISUAL WITH BALANCED WHITESPACE -->
+    <!-- RIGHT SIDE: ARCHITECTURE VISUAL WITH ANIMATED VECTOR PULSE NODE -->
     <g transform="translate(850, 105)">
-      <rect x="0" y="0" width="580" height="340" fill="#0D1117" stroke="#20D9F3" stroke-width="2" />
+      <rect x="0" y="0" width="580" height="340" fill="#0D1117" stroke="#26D9F3" stroke-width="2" />
       
       <!-- Nodes & Glowing Connection Strands -->
       <g opacity="0.9">
         <line x1="100" y1="90" x2="280" y2="170" stroke="#FF3045" stroke-width="2" />
-        <line x1="280" y1="170" x2="460" y2="110" stroke="#20D9F3" stroke-width="2" />
+        <line x1="280" y1="170" x2="460" y2="110" stroke="#26D9F3" stroke-width="2" />
         <line x1="280" y1="170" x2="360" y2="250" stroke="#7C4DFF" stroke-width="2" />
         
         <circle cx="100" cy="90" r="20" fill="#FF3045" />
-        <circle cx="280" cy="170" r="28" fill="#20D9F3" />
+        <circle cx="280" cy="170" class="pulse-ring" fill="#26D9F3" stroke="#F2EEE6" stroke-width="2" />
         <circle cx="460" cy="110" r="22" fill="#FFD34E" />
         <circle cx="360" cy="250" r="18" fill="#7C4DFF" />
 
@@ -71,8 +83,8 @@
         <rect x="0" y="0" width="110" height="30" fill="#080C14" stroke="#FF3045" stroke-width="1.5" />
         <text x="55" y="20" font-family="'Courier New', monospace" font-size="12" fill="#FF3045" text-anchor="middle">FASTAPI</text>
 
-        <rect x="125" y="0" width="130" height="30" fill="#080C14" stroke="#20D9F3" stroke-width="1.5" />
-        <text x="190" y="20" font-family="'Courier New', monospace" font-size="12" fill="#20D9F3" text-anchor="middle">LANGGRAPH</text>
+        <rect x="125" y="0" width="130" height="30" fill="#080C14" stroke="#26D9F3" stroke-width="1.5" />
+        <text x="190" y="20" font-family="'Courier New', monospace" font-size="12" fill="#26D9F3" text-anchor="middle">LANGGRAPH</text>
 
         <rect x="270" y="0" width="130" height="30" fill="#080C14" stroke="#7C4DFF" stroke-width="1.5" />
         <text x="335" y="20" font-family="'Courier New', monospace" font-size="12" fill="#7C4DFF" text-anchor="middle">POSTGRESQL</text>
