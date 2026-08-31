@@ -1,14 +1,14 @@
-<!-- 01 — COVER SPLASH (REF SVG #1: Across The Spider-Verse Wallpaper.svg + CHAR #1: atharva-hero.svg INLINED) -->
+<!-- 01 — COVER SPLASH (REF SVG #1: Across The Spider-Verse Wallpaper.svg INLINED) -->
 <p align="center">
   <img src="./assets/scenes/scene01-cover.svg" width="100%" alt="Issue #01: Atharva Pathak - AI Engineer Cover Splash" />
 </p>
 
-<!-- 02 — COMIC STRIP (REF SVG #2: Spider Man Into The Spider Verse Poster.svg + CHAR #2: atharva-swing.svg INLINED) -->
+<!-- 02 — COMIC STRIP (REF SVG #2: Spider Man Into The Spider Verse Poster.svg INLINED) -->
 <p align="center">
   <img src="./assets/scenes/scene02-strip.svg" width="100%" alt="Scene 02: Curiosity Origin Strip" />
 </p>
 
-<!-- 03 — OPEN CHARACTER MOMENT (REF SVG #3: Spider-Man Homecoming... PNG.svg + CHAR #3: atharva-rooftop.svg INLINED) -->
+<!-- 03 — OPEN CHARACTER MOMENT (REF SVG #3: Spider-Man Homecoming... PNG.svg INLINED) -->
 <p align="center">
   <img src="./assets/scenes/scene03-rooftop.svg" width="100%" alt="Scene 03: Rooftop Perspective" />
 </p>
@@ -18,7 +18,7 @@
   <img src="./assets/scenes/scene04-sense.svg" width="100%" alt="Scene 04: Spider-Sense Power Set" />
 </p>
 
-<!-- 05 — FULL-WIDTH MULTIVERSE SPLASH (REF SVG #4: Spider Man_ Across The Spider Verse Wallpaper.svg + CHAR #4: atharva-leap.svg INLINED) -->
+<!-- 05 — FULL-WIDTH MULTIVERSE SPLASH (REF SVG #4: Spider Man_ Across The Spider Verse Wallpaper.svg INLINED) -->
 <p align="center">
   <img src="./assets/scenes/scene05-leap.svg" width="100%" alt="Scene 05: Leaping into Multiverse" />
 </p>
@@ -50,7 +50,7 @@
   <img src="./assets/scenes/multiverse-city.svg" width="100%" alt="Scene 08: Multiverse City Districts" />
 </p>
 
-<!-- 09 — CINEMATIC ENDING SPLASH (REF SVG #10: download (3).svg + CHAR #5: atharva-running.svg INLINED) -->
+<!-- 09 — CINEMATIC ENDING SPLASH (REF SVG #10: download (3).svg INLINED) -->
 <p align="center">
   <img src="./assets/scenes/scene08-ending.svg" width="100%" alt="Scene 09: Cinematic Ending Splash" />
 </p>
