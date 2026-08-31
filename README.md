@@ -17,7 +17,7 @@
   <img src="./assets/scenes/tech-multiverse.svg" width="100%" alt="Scene 03: The Multiverse Tech Map" />
 </p>
 
-<!-- SCENE 04: PROJECT MULTIVERSES (PORTALS) -->
+<!-- SCENE 04: PROJECT UNIVERSES (PORTALS) -->
 <p align="center">
   <img src="./assets/scenes/project-meravyapar.svg" width="100%" alt="Universe 01: MeraVyapar AI" />
 </p>
@@ -49,9 +49,9 @@
   <img src="./assets/scenes/multiverse-city.svg" width="100%" alt="Scene 07: Multiverse City & Districts" />
 </p>
 
-<!-- SCENE 08: GITHUB MULTIVERSE ACTIVITY -->
+<!-- SCENE 08: GITHUB MULTIVERSE ACTIVITY FOOTPRINTS -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aspathak2705&theme=react-dark&bg_color=070B14&color=FF3045&line=26D9FF&point=F2EEE6&area=true&hide_border=true" width="95%" alt="Dimensional Footprints Activity Graph" />
+  <img src="./assets/charts/dimensional-footprints.svg" width="100%" alt="Dimensional Footprints Activity Graph" />
 </p>
 
 <!-- SCENE 09: CITYSCAPE BREATHING BREAK -->

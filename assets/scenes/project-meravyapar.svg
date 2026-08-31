@@ -1,85 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" width="100%" height="100%">
   <defs>
     <linearGradient id="p1_bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070B14" />
+      <stop offset="0%" stop-color="#080C14" />
       <stop offset="100%" stop-color="#190C1A" />
     </linearGradient>
   </defs>
 
   <rect width="1600" height="650" fill="url(#p1_bg)" />
-  <rect x="20" y="20" width="1560" height="610" fill="none" stroke="#F5F2E8" stroke-width="4" />
+  <rect x="20" y="20" width="1560" height="610" fill="none" stroke="#F2EEE6" stroke-width="4" />
 
   <!-- ASYMMETRICAL COMIC PROJECT PANEL FRAME -->
   <g transform="translate(40, 40)">
-    <polygon points="0,0 1520,0 1470,570 0,570" fill="#070B14" stroke="#FF3040" stroke-width="5" />
-    <polygon points="10,10 1505,10 1460,560 10,560" fill="none" stroke="#20D9FF" stroke-width="1.5" />
+    <polygon points="0,0 1520,0 1470,570 0,570" fill="#080C14" stroke="#FF3045" stroke-width="5" />
+    <polygon points="10,10 1505,10 1460,560 10,560" fill="none" stroke="#20D9F3" stroke-width="1.5" />
 
-    <!-- TITLE PORTAL BADGE -->
-    <rect x="40" y="35" width="580" height="65" fill="#FF3040" stroke="#070B14" stroke-width="3" />
-    <text x="65" y="78" font-family="'Impact', sans-serif" font-size="38" font-weight="900" fill="#F5F2E8" letter-spacing="3">UNIVERSE 01 // MERAVYAPAR AI</text>
+    <!-- LEVEL 1 HERO TITLE BADGE -->
+    <rect x="40" y="30" width="580" height="60" fill="#FF3045" stroke="#080C14" stroke-width="3" />
+    <text x="65" y="72" font-family="'Impact', sans-serif" font-size="34" font-weight="900" fill="#F2EEE6" letter-spacing="3">UNIVERSE 01 // MERAVYAPAR AI</text>
 
-    <!-- UNIVERSE THEME & TAGLINE -->
-    <g transform="translate(40, 115)">
-      <rect x="0" y="0" width="460" height="35" fill="#FFD54A" />
-      <text x="15" y="24" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#070B14">FINANCIAL INTELLIGENCE UNIVERSE</text>
+    <!-- UNIVERSE SUBTITLE & TAGLINE -->
+    <g transform="translate(40, 105)">
+      <rect x="0" y="0" width="340" height="30" fill="#FFD34E" />
+      <text x="15" y="20" font-family="'Courier New', monospace" font-size="13" font-weight="900" fill="#080C14">FINANCIAL INTELLIGENCE UNIVERSE</text>
 
-      <rect x="0" y="50" width="750" height="70" fill="#0D111C" stroke="#F5F2E8" stroke-width="2" />
-      <text x="25" y="92" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#20D9FF">"WHEN MONEY LEAVES CLUES, INTELLIGENT SYSTEMS SHOULD SEE THEM."</text>
+      <rect x="0" y="45" width="760" height="55" fill="#0D1117" stroke="#F2EEE6" stroke-width="1.5" />
+      <text x="20" y="80" font-family="'Courier New', monospace" font-size="16" font-weight="700" fill="#20D9F3">"WHEN MONEY LEAVES CLUES, INTELLIGENT SYSTEMS SHOULD SEE THEM."</text>
     </g>
 
-    <!-- LEFT SIDE: CONCEPT MATRIX & DESCRIPTION -->
-    <g transform="translate(40, 260)">
-      <text x="0" y="25" font-family="'Impact', sans-serif" font-size="22" fill="#FFD54A" letter-spacing="1">MISSION OBJECTIVE &amp; CORE ARCHITECTURE:</text>
+    <!-- LEVEL 2 SECTION HEADING & LEVEL 3 BODY TEXT -->
+    <g transform="translate(40, 225)">
+      <text x="0" y="22" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#FFD34E" letter-spacing="2">MISSION OBJECTIVE &amp; CORE ARCHITECTURE</text>
       
-      <text x="0" y="65" font-family="'Courier New', monospace" font-size="15" fill="#F5F2E8">AI-powered Financial Intelligence Layer for merchants parsing fragmented</text>
-      <text x="0" y="90" font-family="'Courier New', monospace" font-size="15" fill="#F5F2E8">financial activity, evidence-driven transactions, and receivables intelligence.</text>
+      <text x="0" y="55" font-family="'Courier New', monospace" font-size="14" fill="#F2EEE6">AI-powered Financial Intelligence Layer for merchants parsing fragmented</text>
+      <text x="0" y="80" font-family="'Courier New', monospace" font-size="14" fill="#F2EEE6">financial activity, evidence-driven transactions, and receivables context.</text>
 
-      <g transform="translate(0, 120)">
-        <circle cx="15" cy="20" r="5" fill="#FF3040" />
-        <text x="35" y="25" font-family="'Courier New', monospace" font-size="15" fill="#F5F2E8">Financial Intelligence Graph &amp; Transaction Evidence</text>
+      <g transform="translate(0, 110)">
+        <circle cx="12" cy="15" r="4" fill="#FF3045" />
+        <text x="30" y="20" font-family="'Courier New', monospace" font-size="14" fill="#F2EEE6">Financial Intelligence Graph &amp; Transaction Evidence</text>
 
-        <circle cx="15" cy="50" r="5" fill="#20D9FF" />
-        <text x="35" y="55" font-family="'Courier New', monospace" font-size="15" fill="#F5F2E8">Receivables Prioritization &amp; Payment Promises</text>
+        <circle cx="12" cy="45" r="4" fill="#20D9F3" />
+        <text x="30" y="50" font-family="'Courier New', monospace" font-size="14" fill="#F2EEE6">Receivables Prioritization &amp; Payment Promise Tracking</text>
 
-        <circle cx="15" cy="80" r="5" fill="#7C3AED" />
-        <text x="35" y="85" font-family="'Courier New', monospace" font-size="15" fill="#F5F2E8">Agentic Financial Analysis Pipeline</text>
+        <circle cx="12" cy="75" r="4" fill="#7C4DFF" />
+        <text x="30" y="80" font-family="'Courier New', monospace" font-size="14" fill="#F2EEE6">Agentic Financial Analysis Pipeline</text>
       </g>
     </g>
 
-    <!-- RIGHT SIDE: VISUAL GRAPH ARTWORK & TECH SIGNALS -->
-    <g transform="translate(850, 115)">
-      <!-- Visual Financial Graph Node Container -->
-      <rect x="0" y="0" width="580" height="340" fill="#0D111C" stroke="#20D9FF" stroke-width="2" />
+    <!-- RIGHT SIDE: ARCHITECTURE VISUAL WITH BALANCED WHITESPACE -->
+    <g transform="translate(850, 105)">
+      <rect x="0" y="0" width="580" height="340" fill="#0D1117" stroke="#20D9F3" stroke-width="2" />
       
       <!-- Nodes & Glowing Connection Strands -->
-      <g opacity="0.8">
-        <line x1="80" y1="80" x2="260" y2="170" stroke="#FF3040" stroke-width="2" />
-        <line x1="260" y1="170" x2="480" y2="100" stroke="#20D9FF" stroke-width="2" />
-        <line x1="260" y1="170" x2="350" y2="270" stroke="#7C3AED" stroke-width="2" />
+      <g opacity="0.9">
+        <line x1="100" y1="90" x2="280" y2="170" stroke="#FF3045" stroke-width="2" />
+        <line x1="280" y1="170" x2="460" y2="110" stroke="#20D9F3" stroke-width="2" />
+        <line x1="280" y1="170" x2="360" y2="250" stroke="#7C4DFF" stroke-width="2" />
         
-        <circle cx="80" cy="80" r="16" fill="#FF3040" />
-        <circle cx="260" cy="170" r="24" fill="#20D9FF" />
-        <circle cx="480" cy="100" r="18" fill="#FFD54A" />
-        <circle cx="350" cy="270" r="14" fill="#7C3AED" />
+        <circle cx="100" cy="90" r="20" fill="#FF3045" />
+        <circle cx="280" cy="170" r="28" fill="#20D9F3" />
+        <circle cx="460" cy="110" r="22" fill="#FFD34E" />
+        <circle cx="360" cy="250" r="18" fill="#7C4DFF" />
 
-        <text x="80" y="85" font-family="'Courier New', monospace" font-size="10" fill="#070B14" font-weight="900" text-anchor="middle">TX</text>
-        <text x="260" y="175" font-family="'Courier New', monospace" font-size="12" fill="#070B14" font-weight="900" text-anchor="middle">GRAPH</text>
-        <text x="480" y="105" font-family="'Courier New', monospace" font-size="10" fill="#070B14" font-weight="900" text-anchor="middle">RAG</text>
+        <text x="100" y="95" font-family="'Courier New', monospace" font-size="12" fill="#080C14" font-weight="900" text-anchor="middle">INPUT</text>
+        <text x="280" y="175" font-family="'Courier New', monospace" font-size="14" fill="#080C14" font-weight="900" text-anchor="middle">GRAPH</text>
+        <text x="460" y="115" font-family="'Courier New', monospace" font-size="12" fill="#080C14" font-weight="900" text-anchor="middle">RAG</text>
       </g>
 
       <!-- Tech Signal Badges -->
-      <g transform="translate(20, 280)">
-        <rect x="0" y="0" width="110" height="35" fill="#070B14" stroke="#FF3040" stroke-width="1.5" />
-        <text x="55" y="22" font-family="'Courier New', monospace" font-size="13" fill="#FF3040" text-anchor="middle">FASTAPI</text>
+      <g transform="translate(30, 285)">
+        <rect x="0" y="0" width="110" height="30" fill="#080C14" stroke="#FF3045" stroke-width="1.5" />
+        <text x="55" y="20" font-family="'Courier New', monospace" font-size="12" fill="#FF3045" text-anchor="middle">FASTAPI</text>
 
-        <rect x="125" y="0" width="130" height="35" fill="#070B14" stroke="#20D9FF" stroke-width="1.5" />
-        <text x="190" y="22" font-family="'Courier New', monospace" font-size="13" fill="#20D9FF" text-anchor="middle">LANGGRAPH</text>
+        <rect x="125" y="0" width="130" height="30" fill="#080C14" stroke="#20D9F3" stroke-width="1.5" />
+        <text x="190" y="20" font-family="'Courier New', monospace" font-size="12" fill="#20D9F3" text-anchor="middle">LANGGRAPH</text>
 
-        <rect x="270" y="0" width="140" height="35" fill="#070B14" stroke="#7C3AED" stroke-width="1.5" />
-        <text x="340" y="22" font-family="'Courier New', monospace" font-size="13" fill="#7C3AED" text-anchor="middle">POSTGRESQL</text>
+        <rect x="270" y="0" width="130" height="30" fill="#080C14" stroke="#7C4DFF" stroke-width="1.5" />
+        <text x="335" y="20" font-family="'Courier New', monospace" font-size="12" fill="#7C4DFF" text-anchor="middle">POSTGRESQL</text>
 
-        <rect x="425" y="0" width="110" height="35" fill="#070B14" stroke="#FFD54A" stroke-width="1.5" />
-        <text x="480" y="22" font-family="'Courier New', monospace" font-size="13" fill="#FFD54A" text-anchor="middle">AI AGENTS</text>
+        <rect x="415" y="0" width="110" height="30" fill="#080C14" stroke="#FFD34E" stroke-width="1.5" />
+        <text x="470" y="20" font-family="'Courier New', monospace" font-size="12" fill="#FFD34E" text-anchor="middle">AI AGENTS</text>
       </g>
     </g>
   </g>

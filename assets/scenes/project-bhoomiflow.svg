@@ -1,80 +1,77 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" width="100%" height="100%">
   <defs>
     <linearGradient id="p2_bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070B14" />
+      <stop offset="0%" stop-color="#080C14" />
       <stop offset="100%" stop-color="#0B1A24" />
     </linearGradient>
   </defs>
 
   <rect width="1600" height="650" fill="url(#p2_bg)" />
-  <rect x="20" y="20" width="1560" height="610" fill="none" stroke="#F5F2E8" stroke-width="4" />
+  <rect x="20" y="20" width="1560" height="610" fill="none" stroke="#F2EEE6" stroke-width="4" />
 
   <!-- ASYMMETRICAL COMIC PANEL -->
   <g transform="translate(40, 40)">
-    <polygon points="30,0 1520,0 1520,570 0,570" fill="#070B14" stroke="#20D9FF" stroke-width="5" />
-    <polygon points="40,10 1510,10 1510,560 10,560" fill="none" stroke="#7C3AED" stroke-width="1.5" />
+    <polygon points="30,0 1520,0 1520,570 0,570" fill="#080C14" stroke="#20D9F3" stroke-width="5" />
+    <polygon points="40,10 1510,10 1510,560 10,560" fill="none" stroke="#7C4DFF" stroke-width="1.5" />
 
-    <!-- TITLE PORTAL BADGE -->
-    <rect x="50" y="35" width="540" height="65" fill="#20D9FF" stroke="#070B14" stroke-width="3" />
-    <text x="75" y="78" font-family="'Impact', sans-serif" font-size="38" font-weight="900" fill="#070B14" letter-spacing="3">UNIVERSE 02 // BHOOMIFLOW</text>
+    <!-- LEVEL 1 HERO TITLE BADGE -->
+    <rect x="50" y="30" width="520" height="60" fill="#20D9F3" stroke="#080C14" stroke-width="3" />
+    <text x="75" y="72" font-family="'Impact', sans-serif" font-size="34" font-weight="900" fill="#080C14" letter-spacing="3">UNIVERSE 02 // BHOOMIFLOW</text>
 
-    <!-- UNIVERSE THEME & TAGLINE -->
-    <g transform="translate(50, 115)">
-      <rect x="0" y="0" width="460" height="35" fill="#FF3040" />
-      <text x="15" y="24" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#F5F2E8">LAND CASE &amp; EVIDENCE GRAPH UNIVERSE</text>
+    <!-- UNIVERSE SUBTITLE & TAGLINE -->
+    <g transform="translate(50, 105)">
+      <rect x="0" y="0" width="340" height="30" fill="#FF3045" />
+      <text x="15" y="20" font-family="'Courier New', monospace" font-size="13" font-weight="900" fill="#F2EEE6">LAND CASE &amp; EVIDENCE UNIVERSE</text>
 
-      <rect x="0" y="50" width="750" height="70" fill="#0D111C" stroke="#F5F2E8" stroke-width="2" />
-      <text x="25" y="92" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#FFD54A">"DOCUMENTS DON'T JUST CONTAIN DATA. THEY CONTAIN STORIES."</text>
+      <rect x="0" y="45" width="750" height="55" fill="#0D1117" stroke="#F2EEE6" stroke-width="1.5" />
+      <text x="20" y="80" font-family="'Courier New', monospace" font-size="16" font-weight="700" fill="#FFD34E">"DOCUMENTS DON'T JUST CONTAIN DATA. THEY CONTAIN STORIES."</text>
     </g>
 
-    <!-- LEFT SIDE: DESCRIPTION & CONCEPTS -->
-    <g transform="translate(50, 260)">
-      <text x="0" y="25" font-family="'Impact', sans-serif" font-size="22" fill="#20D9FF" letter-spacing="1">MISSION OBJECTIVE &amp; CORE ARCHITECTURE:</text>
+    <!-- LEVEL 2 SECTION HEADING & LEVEL 3 BODY TEXT -->
+    <g transform="translate(50, 225)">
+      <text x="0" y="22" font-family="'Courier New', monospace" font-size="15" font-weight="900" fill="#20D9F3" letter-spacing="2">MISSION OBJECTIVE &amp; CORE ARCHITECTURE</text>
       
-      <text x="0" y="65" font-family="'Courier New', monospace" font-size="15" fill="#F5F2E8">AI-powered land case &amp; evidence platform structuring complex case documents,</text>
-      <text x="0" y="90" font-family="'Courier New', monospace" font-size="15" fill="#F5F2E8">evidence relationships, procedural conflicts, and officer workflows.</text>
+      <text x="0" y="55" font-family="'Courier New', monospace" font-size="14" fill="#F2EEE6">AI-powered land case &amp; evidence platform structuring complex case documents,</text>
+      <text x="0" y="80" font-family="'Courier New', monospace" font-size="14" fill="#F2EEE6">evidence relationships, procedural conflicts, and officer workflows.</text>
 
-      <g transform="translate(0, 120)">
-        <circle cx="15" cy="20" r="5" fill="#20D9FF" />
-        <text x="35" y="25" font-family="'Courier New', monospace" font-size="15" fill="#F5F2E8">Case &amp; Evidence Graph Structure</text>
+      <g transform="translate(0, 110)">
+        <circle cx="12" cy="15" r="4" fill="#20D9F3" />
+        <text x="30" y="20" font-family="'Courier New', monospace" font-size="14" fill="#F2EEE6">Case &amp; Evidence Graph Structure</text>
 
-        <circle cx="15" cy="50" r="5" fill="#FF3040" />
-        <text x="35" y="55" font-family="'Courier New', monospace" font-size="15" fill="#F5F2E8">Document Intelligence &amp; Conflict Detection</text>
+        <circle cx="12" cy="45" r="4" fill="#FF3045" />
+        <text x="30" y="50" font-family="'Courier New', monospace" font-size="14" fill="#F2EEE6">Document Intelligence &amp; Conflict Detection</text>
 
-        <circle cx="15" cy="80" r="5" fill="#FFD54A" />
-        <text x="35" y="85" font-family="'Courier New', monospace" font-size="15" fill="#F5F2E8">Legal Procedure RAG &amp; Workflow Intelligence</text>
+        <circle cx="12" cy="75" r="4" fill="#FFD34E" />
+        <text x="30" y="80" font-family="'Courier New', monospace" font-size="14" fill="#F2EEE6">Legal Procedure RAG &amp; Officer Workflows</text>
       </g>
     </g>
 
-    <!-- RIGHT SIDE: VISUAL CASE MAP ARTWORK & TECH SIGNALS -->
-    <g transform="translate(860, 115)">
-      <rect x="0" y="0" width="580" height="340" fill="#0D111C" stroke="#7C3AED" stroke-width="2" />
+    <!-- RIGHT SIDE: SIMPLIFIED VISUAL ARCHITECTURE -->
+    <g transform="translate(860, 105)">
+      <rect x="0" y="0" width="580" height="340" fill="#0D1117" stroke="#7C4DFF" stroke-width="2" />
       
-      <!-- Land Document & Graph Overlay -->
-      <g opacity="0.8">
-        <polygon points="60,60 220,60 220,200 60,200" fill="none" stroke="#20D9FF" stroke-width="2" />
-        <line x1="80" y1="90" x2="200" y2="90" stroke="#20D9FF" opacity="0.6" />
-        <line x1="80" y1="120" x2="180" y2="120" stroke="#20D9FF" opacity="0.6" />
-        <line x1="80" y1="150" x2="160" y2="150" stroke="#20D9FF" opacity="0.6" />
+      <g opacity="0.9">
+        <polygon points="60,60 200,60 200,180 60,180" fill="none" stroke="#20D9F3" stroke-width="2" />
+        <line x1="80" y1="90" x2="180" y2="90" stroke="#20D9F3" opacity="0.6" />
+        <line x1="80" y1="120" x2="160" y2="120" stroke="#20D9F3" opacity="0.6" />
 
-        <line x1="220" y1="130" x2="420" y2="180" stroke="#FF3040" stroke-width="3" />
-        <circle cx="420" cy="180" r="28" fill="#FF3040" />
-        <text x="420" y="185" font-family="'Courier New', monospace" font-size="11" fill="#F5F2E8" font-weight="900" text-anchor="middle">CONFLICT</text>
+        <line x1="200" y1="120" x2="400" y2="170" stroke="#FF3045" stroke-width="3" />
+        <circle cx="400" cy="170" r="28" fill="#FF3045" />
+        <text x="400" y="175" font-family="'Courier New', monospace" font-size="11" fill="#F2EEE6" font-weight="900" text-anchor="middle">CONFLICT</text>
       </g>
 
-      <!-- Tech Signal Badges -->
-      <g transform="translate(20, 280)">
-        <rect x="0" y="0" width="160" height="35" fill="#070B14" stroke="#20D9FF" stroke-width="1.5" />
-        <text x="80" y="22" font-family="'Courier New', monospace" font-size="13" fill="#20D9FF" text-anchor="middle">KNOWLEDGE GRAPH</text>
+      <g transform="translate(30, 285)">
+        <rect x="0" y="0" width="150" height="30" fill="#080C14" stroke="#20D9F3" stroke-width="1.5" />
+        <text x="75" y="20" font-family="'Courier New', monospace" font-size="12" fill="#20D9F3" text-anchor="middle">KNOWLEDGE GRAPH</text>
 
-        <rect x="175" y="0" width="80" height="35" fill="#070B14" stroke="#F5F2E8" stroke-width="1.5" />
-        <text x="215" y="22" font-family="'Courier New', monospace" font-size="13" fill="#F5F2E8" text-anchor="middle">RAG</text>
+        <rect x="165" y="0" width="70" height="30" fill="#080C14" stroke="#F2EEE6" stroke-width="1.5" />
+        <text x="200" y="20" font-family="'Courier New', monospace" font-size="12" fill="#F2EEE6" text-anchor="middle">RAG</text>
 
-        <rect x="270" y="0" width="110" height="35" fill="#070B14" stroke="#FFD54A" stroke-width="1.5" />
-        <text x="325" y="22" font-family="'Courier New', monospace" font-size="13" fill="#FFD54A" text-anchor="middle">FASTAPI</text>
+        <rect x="250" y="0" width="110" height="30" fill="#080C14" stroke="#FFD34E" stroke-width="1.5" />
+        <text x="305" y="20" font-family="'Courier New', monospace" font-size="12" fill="#FFD34E" text-anchor="middle">FASTAPI</text>
 
-        <rect x="395" y="0" width="110" height="35" fill="#070B14" stroke="#7C3AED" stroke-width="1.5" />
-        <text x="450" y="22" font-family="'Courier New', monospace" font-size="13" fill="#7C3AED" text-anchor="middle">DOCKER</text>
+        <rect x="375" y="0" width="110" height="30" fill="#080C14" stroke="#7C4DFF" stroke-width="1.5" />
+        <text x="430" y="20" font-family="'Courier New', monospace" font-size="12" fill="#7C4DFF" text-anchor="middle">DOCKER</text>
       </g>
     </g>
   </g>
